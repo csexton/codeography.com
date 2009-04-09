@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Codeography #=> "Jekyll - blogging like a coder"</title>
+		<link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen, projection">
+		<link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print">    
+		<!--[if IE]><link rel="stylesheet" href="/stylesheets/ie.css" type="text/css" media="screen, projection"><![endif]-->
+		<style>
+		  pre {padding: 1em; overflow: auto;}
+		  body { 
+			  font-size: 80%;
+		  }
+		
+	    </style>
+
+		<link type="text/css" rel="stylesheet" href="/shjs/css/sh_acid.css">
+		<script type="text/javascript" src="/shjs/sh_main.min.js"></script>
+		<script type="text/javascript" src="/shjs/sh_style.min.js"></script>
+		
+		
+	</head>
+	<body onload="sh_highlightDocument();">
+		<div class="container">  
+			<h1>>> codeography</h1>
+			<hr />
+			<div class="span-15 prepend-1 colborder">
+				<div id="content">
+					
+
+
+
+<div class='entry'>
+	<h2 class='title'><a href='/2009/03/30/getting-started-with-jekyll.html'>Getting Started with Jekyll</a></h2>
+	<div class='byline'>March 30, 2009 @ 00:00</div>
+	<div class='body'>
+		
+		<h1 id='getting_started_with_jekyll'>Getting started with Jekyll.</h1>
+
+<p>Install jekyll</p>
+
+<pre><code>$ sudo gem install mojombo-jekyll -s http://gems.github.com/ -s http://gems.rubyforge.org/</code></pre>
+
+<p>Setup a site</p>
+
+<pre><code>$ mkdir site
+$ cd site</code></pre>
+
+<p>Make the base layout</p>
+
+<pre><code>$ mkdir _layouts</code></pre>
+
+<p>Create a file called base.html in site/_layouts:</p>
+
+<pre><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+	&lt;head&gt;
+		&lt;title&gt;{ {; page.title }}&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;div class=&quot;container&quot;&gt;  
+			{ { content }}
+		&lt;/div&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+<p>Make an about page:</p>
+
+<pre><code>mkdir about</code></pre>
+
+<p>Create a file called index.html in site/about:</p>
+
+<pre><code>---
+layout: base
+---
+&lt;h1&gt;Getting started with Jekyll&lt;/h1&gt;
+
+&lt;p&gt;I am not afraid of the command line&lt;/p&gt;</code></pre>
+
+<p>Now you should be able to run jekyll from your site directory</p>
+
+<pre><code>jekyll</code></pre>
+
+<p>If that works, try running the built in server and take a look</p>
+
+<pre><code>jekyll --server</code></pre>
+
+<p>And browse to <a href='http://localhost:4000/about'>http://localhost:4000/about</a></p>
+
+<h2 id='add_some_style'>Add some style</h2>
+
+<p>Well that&#8217;s not very pretty, but shows that it works. Lets add some style. I like to use <a href='http://blueprintcss.org/'>Blueprint CSS</a>, so I will add that. Feel free to use your own stylesheets, but this will give you a good starting point. You can download them from their website, or use the following wget&#8217;s to just get up and running quick:</p>
+
+<pre><code>mkdir stylesheets
+cd stylesheets
+wget http://blueprintcss.org/blueprint/screen.css
+wget http://blueprintcss.org/blueprint/print.css
+wget http://blueprintcss.org/blueprint/ie.css 
+cd ..</code></pre>
+
+<h2 id='add_some_syntax_highlighting'>Add some syntax highlighting</h2>
+
+<pre><code>sudo port install py-pygments
+cd stylesheets
+wget http://tom.preston-werner.com/css/syntax.css</code></pre>
+
+<h2 id='add_a_feed'>Add a feed</h2>
+
+<p>In the root of your site folder, create an &#8216;atom.xml&#8217; file with the following:</p>
+
+<pre><code>---
+layout: nil
+---
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;feed xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;
+
+	&lt;title&gt;Codeography&lt;/title&gt;
+	&lt;link href=&quot;http://codeography.com/atom.xml&quot; rel=&quot;self&quot;/&gt;
+	&lt;link href=&quot;http://codeography.com/&quot;/&gt;
+	&lt;updated&gt;{&amp;#123;site.time | date\_to\_xmlschema }}&lt;/updated&gt;
+	&lt;id&gt;http://codeography.com/&lt;/id&gt;
+	&lt;author&gt;
+		&lt;name&gt;Christopher Sexton&lt;/name&gt;
+		&lt;email&gt;&lt;/email&gt;
+	&lt;/author&gt;
+	
+	&lt;entry&gt;
+		&lt;title&gt;Getting Started with Jekyll&lt;/title&gt;
+		&lt;link href=&quot;http://codeography.com/2009/03/30/getting-started-with-jekyll.html&quot;/&gt;
+		&lt;updated&gt;{&amp;#123;post.date | date\_to\_xmlschema }}&lt;/updated&gt;
+		&lt;id&gt;http://codeography.com{&amp;#123; post.id }}&lt;/id&gt;
+		&lt;content type=&quot;html&quot;&gt;{&amp;#123; post.content | xml\_escape }}&lt;/content&gt;
+	&lt;/entry&gt;
+	
+&lt;/feed&gt;</code></pre>
+		
+		
+	</div>
+	<div class='footer'>
+	</div>
+</div>
+
+
+
+
+				</div>
+			</div>
+			<div class="span-7 last">
+				<h3>Recent Entries</h3>
+				<ul>
+					
+					<li><a href="/2009/03/30/getting-started-with-jekyll.html">Getting Started with Jekyll</a></li>
+					
+				</ul>
+			</div>
+		</div>
+
+	</body>
+</html>
