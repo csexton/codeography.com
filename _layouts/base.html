@@ -1,35 +1,38 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
+	<head profile="http://www.w3.org/2005/10/profile">
+		<link rel="icon" type="image/png" href="/images/favicon.png" /> 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Codeography #=> "{{ page.title }}"</title>
 		<link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen, projection">
 		<link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print">    
 		<!--[if IE]><link rel="stylesheet" href="/stylesheets/ie.css" type="text/css" media="screen, projection"><![endif]-->
-		<style>
-		  pre {padding: 1em; overflow: auto;}
-		  body { 
-			  font-size: 80%;
-		  }
-		
-	    </style>
+		<link rel="stylesheet" href="/stylesheets/codeography.css" type="text/css" media="screen, projection">    
 
-		<link type="text/css" rel="stylesheet" href="/shjs/css/sh_acid.css">
-		<script type="text/javascript" src="/shjs/sh_main.min.js"></script>
-		<script type="text/javascript" src="/shjs/sh_style.min.js"></script>
-		
 		
 	</head>
-	<body onload="sh_highlightDocument();">
+	<body>
 		<div class="container">  
-			<h1>>> codeography</h1>
+			<div id="header"></div>
+			<!--<h1 class="header"><span class="green">&gt;&gt;</span> <span class="purple">codeography</span></h1>
+			<h3 class="dark_grey"><span>#=&gt;</span> "<span>programming is fun again.</span>"</h3>-->
+			
+	
 			<hr />
-			<div class="span-15 prepend-1 colborder">
+			<div class="span-15 prepend-1 ">
 				<div id="content">
 					{{ content }}
 				</div>
 			</div>
 			<div class="span-7 last">
+				<h3>Projects</h3>
+				<ul>
+					<li><a href="http://github.com/csexton/twitter_archive/tree">Twitter Archive</a></li>
+					<li><a href="http://github.com/csexton/dotfiles/tree">dotfiles</a></li>
+					<li><a href="http://github.com/csexton/ssh-keyput/tree">ssh keyput</a></li>
+					<li><a href="http://github.com/csexton/standup/tree">Standup Microblog</a></li>
+				</ul>
+				
 				<h3>Recent Entries</h3>
 				<ul>
 					{% for rpost in site.posts limit:20 %}
@@ -39,5 +42,40 @@
 			</div>
 		</div>
 
+
+
+		<div id="footer">
+			<div class="container">
+
+				<br />
+				<br />
+				<div class="span-7">
+					<h5>Links</h5>
+					<ul id="recently">
+						<li> A link
+						</li>
+					</ul>
+
+				</div>
+
+				<div class="span-8 prepend-1">
+
+					<h5>Neat things</h5>
+					<ul class="archive-list">
+						<li><a href="http://twitter.com">Twitter</a></li>
+						<li><a href="http://github.com">Github</a></li>
+					</ul>
+
+				</div>
+
+				<div class="span-7 prepend-1 last">
+					<h5>Here's a box</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+
+				</div>
+
+			</div>
+		</div>
+		
 	</body>
 </html>

@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
-
+require 'rubygems'
+=begin
 require 'rubygems'
 require 'erb'
 require 'time'
@@ -81,6 +82,9 @@ class PostGenerator
 end
 
 ################################################################################
+=end
+
+require File.dirname(__FILE__) + '/post_generator'
 
 help = <<HELP
 Jekyll post generator
@@ -110,5 +114,11 @@ opts.parse!
 
 title = ARGV.join(" ")
 
-PostGenerator.new.generate(title)
+pg = Jekyll::PostGenerator.new('.')
 
+path_to_post = pg.generate(title)
+
+if (ENV['EDITOR'])
+  system ("#{ENV['EDITOR']} #{path_to_post}") 
+end
+puts "Successfully generated new post: #{path_to_post}"

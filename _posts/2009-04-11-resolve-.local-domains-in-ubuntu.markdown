@@ -1,0 +1,17 @@
+---
+layout: post
+published: true
+title: Resolve .local domains in Ubuntu
+---
+
+Recently had a problem where i couldn't resolve any of our internal ".local" domain names.  The weird thing was I could add a dns search to resolve.conf and resolve it by pinging the host name, but anytime I tried to use the fdqn it would fail
+
+Turns out the problem is the avahi-daemon. This can be disabled by editing
+
+	/etc/defaults/avahi-daemon
+
+and changing the AVAHI_DAEMON_START  to 0.
+
+Then you can remove the rc scripts with the following command:
+
+	sudo update-rc.d -f avahi-daemon remove
