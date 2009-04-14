@@ -10,7 +10,7 @@ body {
 	font-size: 80%;
 	background-color: #111111;
 	color: #e6e6e6;
-	font: 0.75em/1.5 "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
+	font: 0.80em/1.5 "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
 	background: #111 url(../images/cross-hatch.gif) top repeat-x;
 	color: #999; 
 }
@@ -32,18 +32,31 @@ a {
 a:link {
 	text-decoration: none;
 }
-a:visited { }
-a:active { }
+a:visited {
+	color: #448E32;
+}
+a:active {
+	background: #333333;
+	color: #448E32;
+}
 a:hover {
 	text-decoration: none;
 	background: #333333;
 	color: #448E32;
+}
+a.image_link {
+	text-decoration: none;
+	border-bottom: none;
+}
+a.image_link:hover {
+	background: none;
 }
 pre {
 	background: black;
 	padding: 1em; 
 	overflow: auto;
 	color: #606060;
+    font-size: 12px;
 }
 .byline {
 	color: #606060;
@@ -54,18 +67,19 @@ h2.title {
 	padding-bottom: 0;
 }
 #header {
-	background: #111111 url('../images/title_logo.png') no-repeat scroll top left;
+	/*background: #111111 url('../images/title_logo.png') no-repeat scroll top left;*/
 	height: 75px;
 	margin: 15px 0 -10px 0;
 }
+/*
 #footer {
-color: black;
-height: 300px;
-background: #222222;
+	color: black;
+	background: #222222;
 }
-	#footer h5, #footer h6 {
+#footer h5, #footer h6 {
 	color: white;
 }
-	#footer div, #footer a {
+#footer div, #footer a {
 	color: #eee;
 }
+	*/

@@ -8,23 +8,20 @@
 		<link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print">    
 		<!--[if IE]><link rel="stylesheet" href="/stylesheets/ie.css" type="text/css" media="screen, projection"><![endif]-->
 		<link rel="stylesheet" href="/stylesheets/codeography.css" type="text/css" media="screen, projection">    
-
-		
+		<link href="/atom.xml" rel="alternate" title="Codeography.com (Atom)" type="application/atom+xml" />
 	</head>
 	<body>
 		<div class="container">  
-			<div id="header"></div>
+			<div id="header"><a class="image_link" href="/"><img src="/images/title_logo.png" /></a></div>
 			<!--<h1 class="header"><span class="green">&gt;&gt;</span> <span class="purple">codeography</span></h1>
 			<h3 class="dark_grey"><span>#=&gt;</span> "<span>programming is fun again.</span>"</h3>-->
-			
-	
 			<hr />
 			<div class="span-15 prepend-1 ">
 				<div id="content">
 					{{ content }}
 				</div>
 			</div>
-			<div class="span-7 last">
+			<div class="span-7 prepend-1 last">
 				<h3>Projects</h3>
 				<ul>
 					<li><a href="http://github.com/csexton/twitter_archive/tree">Twitter Archive</a></li>
@@ -39,6 +36,11 @@
 					<li><a href="{{ rpost.url }}">{{ rpost.title }}</a></li>
 					{% endfor %}
 				</ul>
+
+				<h3>Syndicate</h3>
+				<ul>
+					<li><a href="/atom.xml">Subscribe</a></li>
+				</ul>
 			</div>
 		</div>
 
@@ -52,8 +54,7 @@
 				<div class="span-7">
 					<h5>Links</h5>
 					<ul id="recently">
-						<li> A link
-						</li>
+						<li><a href="http://gitbug.appspot.com/projects/codeographycom/">Codeography's GitBug Site</a></li>
 					</ul>
 
 				</div>
@@ -69,13 +70,14 @@
 				</div>
 
 				<div class="span-7 prepend-1 last">
-					<h5>Here's a box</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-
+					<h5>Creative Commons</h5>
+					<p>
+					Except where otherwise <a href="http://creativecommons.org/policies#license">noted</a>, content on this site is
+					licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>
+					
 				</div>
 
 			</div>
 		</div>
-		
 	</body>
 </html>

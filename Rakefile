@@ -4,7 +4,8 @@ require "active_support"
 
 desc "Deploy to codeography.com"
 task :deploy do
-    sh "scp -r _site/* codeography.com:codeography.com/"
+  sh "jekyll"
+  sh "scp -r _site/* codeography.com:codeography.com/"
 end
 
 desc "Creates a new _posts file using TITLE='the title' and today's date. JEKYLL_EXT=markdown by default"
