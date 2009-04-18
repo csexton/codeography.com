@@ -28,6 +28,7 @@ task :post do
   end
   if (ENV['EDITOR'])
     system ("#{ENV['EDITOR']} #{post_file}") 
+    system ("git add #{post_file}") 
   end
 end
 
