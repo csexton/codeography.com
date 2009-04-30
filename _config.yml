@@ -1,4 +1,4 @@
 ---
 lsi: false
 pygments: false
-markdown: maruku
+markdown: rdiscount
