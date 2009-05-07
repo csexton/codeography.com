@@ -1,13 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head profile="http://www.w3.org/2005/10/profile">
-		<link rel="icon" type="image/png" href="/images/favicon.png" /> 
+		<link rel="icon" type="image/png" href="/images/favicon.png" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Codeography #=> "{{ page.title }}"</title>
 		<link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen, projection">
-		<link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print">    
+		<link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print">
 		<!--[if IE]><link rel="stylesheet" href="/stylesheets/ie.css" type="text/css" media="screen, projection"><![endif]-->
-		<link rel="stylesheet" href="/stylesheets/codeography.css" type="text/css" media="screen, projection">    
+		<link rel="stylesheet" href="/stylesheets/codeography.css" type="text/css" media="screen, projection">
 		<link href="/atom.xml" rel="alternate" title="Codeography.com (Atom)" type="application/atom+xml" />
 	</head>
 	<body>
@@ -35,6 +35,13 @@
 					{% for rpost in site.posts limit:20 %}
 					<li><a href="{{ rpost.url }}">{{ rpost.title }}</a></li>
 					{% endfor %}
+				</ul>
+
+				<h3>About Me</h3>
+				<ul>
+					<li><a href="http://github.com/csexton/">Fork me on GitHub</a></li>
+					<li><a href="http://twitter.com/fuzzymonk/">Twitter</a></li>
+					<li><a href="http://fuzzymonk.com">Personal Blog</a></li>
 				</ul>
 
 				<h3>Syndicate</h3>
