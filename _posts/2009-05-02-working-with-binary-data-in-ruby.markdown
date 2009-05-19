@@ -62,7 +62,7 @@ As I was working my way thought the string I found it helpful to test the parsin
     >> a.read( "\370\000\364\001\000\000")
     => {"word_var"=>248}
 
-One slick feature of BinData::Record is the ability to set default values.  You can see in the ServerData example above I need to report the size of the struct, and since there are not dynamic length elements I can simply call the num_bytes method on the record:  
+One slick feature of BinData::Record is the ability to set default values.  You can see in the ServerData example above I need to report the size of the struct, and since there are not dynamic length elements I can simply call the num\_bytes method on the record:  
 
     class LengthData < BinData::Record
      uint16le :struct_size, :value => lambda { num_bytes }

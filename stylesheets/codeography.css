@@ -7,10 +7,9 @@
 .old_purple { color: #b960ff; }
 
 body { 
-	font-size: 80%;
 	background-color: #111111;
 	color: #e6e6e6;
-	font: 0.80em/1.5 "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
+	font: 1em/1.5 "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
 	background: #111 url(../images/cross-hatch.gif) top repeat-x;
 	color: #999; 
 }
