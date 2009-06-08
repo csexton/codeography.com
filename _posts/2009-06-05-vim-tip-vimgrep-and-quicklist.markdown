@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vim Tip: VimGrep and QuickList
+title: Vim Tip - VimGrep and QuickList
 ---
 
 I have known about the vimgrep command for a while, but it was always a little awkward. Well that has all changed now that I know about the QuickFix window.
