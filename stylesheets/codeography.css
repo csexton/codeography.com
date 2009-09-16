@@ -82,3 +82,51 @@ h2.title {
 	color: #eee;
 }
 	*/
+
+
+/* Forms */
+
+input,
+button,
+textarea {
+	border:1px solid #999;
+	background:#222;
+	color:#ccc;
+}
+button,
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+	padding:2px 3px;
+}
+input[type="button"],
+button {
+	padding:1px 3px;
+	cursor:pointer;
+}
+input[type="button"].final-action,
+button.final-action {
+    background:#633;
+}
+textarea {
+	padding:4px 2px;
+}
+
+fieldset {
+    border:1px solid #333;
+}
+
+legend {
+    font-size:80%;
+}
+
+label {
+   font-size:80%; 
+    color: #999;
+}
+
+select {}
+select option {}
+select optgroup {}
+textarea {}
+
