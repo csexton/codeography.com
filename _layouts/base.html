@@ -32,41 +32,13 @@
   </div>
   <div class="content">
     <div class="container">
-  <hr class="space" />
+      <hr class="space" />
       <!--<h1 class="header"><span class="green">&gt;&gt;</span> <span class="purple">codeography</span></h1>
       <h3 class="dark_grey"><span>#=&gt;</span> "<span>programming is fun again.</span>"</h3>-->
-      <div class="span-17 ">
+      <div class="span-24 ">
         <div id="content">
           {{ content }}
         </div>
-      </div>
-      <div class="span-6 prepend-1 last">
-        <h3>Projects</h3>
-        <ul>
-          <li><a href="http://github.com/csexton/twitter_archive/tree">Twitter Archive</a></li>
-          <li><a href="http://github.com/csexton/dotfiles/tree">dotfiles</a></li>
-          <li><a href="http://github.com/csexton/ssh-keyput/tree">ssh keyput</a></li>
-          <li><a href="http://github.com/csexton/standup/tree">Standup Microblog</a></li>
-        </ul>
-
-        <h3>Recent Entries</h3>
-        <ul>
-          {% for rpost in site.posts limit:20 %}
-          <li><a href="{{ rpost.url }}">{{ rpost.title }}</a></li>
-          {% endfor %}
-        </ul>
-
-        <h3>About Me</h3>
-        <ul>
-          <li><a href="http://github.com/csexton/">Fork me on GitHub</a></li>
-          <li><a href="http://twitter.com/fuzzymonk/">Twitter</a></li>
-          <li><a href="http://fuzzymonk.com">Personal Blog</a></li>
-        </ul>
-
-        <h3>Syndicate</h3>
-        <ul>
-          <li><a href="/atom.xml">Subscribe</a></li>
-        </ul>
       </div>
     </div>
   </div>
@@ -79,19 +51,34 @@
       <br />
       <br />
       <div class="span-7">
-        <h5>Links</h5>
-        <ul id="recently">
-          <li><a href="http://github.com/csexton/codeography.com/issues">Report a bug</a></li>
+        <h5>Projects</h5>
+        <ul>
+          <li><a href="http://github.com/csexton/twitter_archive/tree">Twitter Archive</a></li>
+          <li><a href="http://github.com/csexton/dotfiles/tree">dotfiles</a></li>
+          <li><a href="http://github.com/csexton/ssh-keyput/tree">ssh keyput</a></li>
+          <li><a href="http://github.com/csexton/standup/tree">Standup Microblog</a></li>
+        </ul>
+        <h5>About Me</h5>
+        <ul>
+          <li><a href="http://github.com/csexton/">Fork me on GitHub</a></li>
+          <li><a href="http://twitter.com/fuzzymonk/">Twitter</a></li>
+          <li><a href="http://fuzzymonk.com">Personal Blog</a></li>
+        </ul>
+
+        <h5>Syndicate</h5>
+        <ul>
+          <li><a href="/atom.xml">Subscribe</a></li>
         </ul>
 
       </div>
 
       <div class="span-8 prepend-1">
 
-        <h5>Neat things</h5>
-        <ul class="archive-list">
-          <li><a href="http://twitter.com">Twitter</a></li>
-          <li><a href="http://github.com">Github</a></li>
+        <h5>Recent Entries</h5>
+        <ul>
+          {% for rpost in site.posts limit:20 %}
+          <li><a href="{{ rpost.url }}">{{ rpost.title }}</a></li>
+          {% endfor %}
         </ul>
 
       </div>
