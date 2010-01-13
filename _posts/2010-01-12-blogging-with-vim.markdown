@@ -19,3 +19,4 @@ I also made a couple of short cuts that save those precious few keystrokes:
     map <Leader>jl  :JekyllList<CR>
 
 You can grab a copy over on [github](http://github.com/csexton/jekyll.vim).
+
