@@ -18,4 +18,4 @@ I also made a couple of short cuts that save those precious few keystrokes:
     map <Leader>jn  :JekyllPost<CR>
     map <Leader>jl  :JekyllList<CR>
 
-I am sure there will be more tweaks as I use it for a while--it sure beats the sake and rake tasks I was using before.
+You can grab a copy over on [github](http://github.com/csexton/jekyll.vim).
