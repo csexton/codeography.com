@@ -13,9 +13,17 @@ Basically I have two functions, a way to list all the posts in my jekyll blog an
 
 `:JekyllList` List the posts, opens the vim file system browser in the posts directory. Which lets you quickly search and open any of you previous entries.
 
+If you use git to store you Jekyll blog (and who doesn't?),  you can use the following:
+
+`:JekyllCommit` Adds and commits all the modified posts in your jekyll blog.
+
+`:JekyllPublish` Pushes the changes to the remote origin.
+
 I also made a couple of short cuts that save those precious few keystrokes:
 
     map <Leader>jn  :JekyllPost<CR>
     map <Leader>jl  :JekyllList<CR>
+    map <Leader>jc  :JekyllCommit<CR>
+    map <Leader>jp  :JekyllPublish<CR>
 
 You can grab a copy over on [github](http://github.com/csexton/jekyll.vim).
