@@ -64,12 +64,12 @@ h2.title {
 }
 #header {
   /*background: #111111 url('../images/title_logo.png') no-repeat scroll top left;*/
-  height: 75px;
-  margin: 15px 0 -10px 0;
 }
 #header_row {
   /*background: #111111 url('../images/title_logo.png') no-repeat scroll top left;*/
   background-color: #111;
+  margin: 15px 0 -10px 0;
+  height: 75px;
 }
 #footer {
 color: white;
