@@ -7,7 +7,6 @@
 .old_purple { color: #b960ff; }
 
 body {
-  background-color: #111;
   font: 0.9em/1.5 "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
   color: #999;
   color: #e6e6e6;
@@ -63,13 +62,11 @@ h2.title {
   padding-bottom: 0;
 }
 #header {
-  /*background: #111111 url('../images/title_logo.png') no-repeat scroll top left;*/
+  padding-top: 1em;
 }
 #header_row {
-  /*background: #111111 url('../images/title_logo.png') no-repeat scroll top left;*/
-  background-color: #111;
-  margin: 15px 0 -10px 0;
-  height: 75px;
+  background: white url('../images/title_bg.png') repeat-x 0 0;
+  height: 100px;
 }
 #footer {
 color: white;
@@ -87,7 +84,6 @@ background: #222222;
   background-color: white;
   color: black;
   border-bottom:4px solid #999;
-  border-top:4px solid #999;
 }
 
 .footer {
@@ -136,4 +132,5 @@ select {}
 select option {}
 select optgroup {}
 textarea {}
+
 
