@@ -1,13 +1,6 @@
 ---
 layout: post
 title: Making Vim play nice with Jekyll's YAML Front Matter
-published: false
----
-
----
-layout: post
-title: Making Vim play nice with Jekyll's YAML Front Matter
-published: false
 ---
 
 ![vim-jekyll-yaml-ugly](/media/vim-jekyll-yaml-ugly.png)
