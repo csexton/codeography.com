@@ -4,6 +4,7 @@ title: Making Vim play nice with Jekyll's YAML Front Matter
 ---
 
 ![vim-jekyll-yaml-ugly](/media/vim-jekyll-yaml-ugly.png)
+
 This just looks bad.
 
 I had a little Vim script adventure tonight. I wanted to make the highlighting of the yaml front matter work as it should for Jekyll.
@@ -47,4 +48,5 @@ Then it dawned on me, I have the jekyll_path defined in my plugin, I just need a
     execute "autocmd BufNewFile,BufRead " . g:jekyll_path . "/* syn match jekyllYamlFrontmatter /\\%^---\\_.\\{-}---$/ contains=@Spell"
 
 ![vim-jekyll-yaml-pretty](/media/vim-jekyll-yaml-pretty.png)
+
 Much Better.
