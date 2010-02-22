@@ -12,7 +12,7 @@ body {
   color: #e6e6e6;
 }
 hr {background:#606060;color:#606060;}
-h1, h2, h3, h4, h5, h6 {font-weight:bold;color:black;}
+h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#222;}
 h4 {margin-bottom: 0.3em}
 h5 {margin-bottom: 0.3em}
 div.border {border-color:#606060;}
@@ -46,12 +46,14 @@ a.image_link:hover {
   background: none;
 }
 pre {
-  background: black;
+  background: #222;
+  background: #222222 url('../images/shadow.png') repeat-x 0 0;
   padding: 1em;
   overflow: auto;
   color: white;
   font-size: 0.9em;
-  border:4px solid #999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
 }
 .byline {
   color: #606060;
@@ -62,15 +64,15 @@ h2.title {
   padding-bottom: 0;
 }
 #header {
-  padding-top: 1em;
+  padding-top: 2em;
 }
 #header_row {
   background: white url('../images/title_bg.png') repeat-x 0 0;
   height: 100px;
 }
 #footer {
+background: #222222 url('../images/shadow.png') repeat-x 0 0;
 color: white;
-background: #222222;
 }
   #footer h5, #footer h6 {
   color: white;
