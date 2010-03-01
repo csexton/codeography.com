@@ -1,0 +1,36 @@
+---
+title: Git on OS X
+tags: tech
+layout: post
+---
+I've been tinkering with git, and git-svn.  Starting to figure out how to cope, and am hopeful that the real coolness of distributed systems will become apparent soon.
+
+The real trick, was finally getting it to install with the options I had hoped for: svn integration, command completion and a custom bash prompt.
+
+First, to install it via Mac Ports (other articles I read had either "+svn" or "+ bash_completion", but not both)
+
+    sudo port install git-core +bash_completion +svn +doc
+
+Set up <a href="http://unboundimagination.com/Current-Git-Branch-in-Bash-Prompt">Arya Asemanfar's</a> bash prompt and add git command completion.
+
+I added the following to .bash_login
+
+    # Command Completion
+    source /opt/local/etc/bash_completion.d/git
+    # Custom Prompt
+    parse_git_branch() {
+      git branch 2> /dev/null | sed -e '/^[^\*]/d' -e 's/\* \(.\*\)/(git::\1)/'
+    }
+    parse_svn_branch() {
+      parse_svn_url | sed -e 's#^'"$(parse_svn_repository_root)"'##g' | awk -F / '{print "(svn::"$1 "/" $2 ")"}'
+    }
+    parse_svn_url() {
+      svn info 2>/dev/null | grep -e '^URL\*' | sed -e 's#^URL: \*\(.\*\)#\1#g '
+    }
+    parse_svn_repository_root() {
+      svn info 2>/dev/null | grep -e '^Repository Root:\*' | sed -e 's#^Repository Root: \*\(.\*\)#\1\/#g '
+    }
+    export PS1="\[\033[00m\]\u@\h:\[\033[01;34m\]\w \[\033[31m\]\$(parse_git_branch)\$(parse_svn_branch)\[\033[00m\]$\[\033[00m\] "
+
+
+Once you get to that point, I recommend heading over to <a href="http://www.intridea.com/2008/6/18/going-rogue-with-git-svn-on-os-x">Intridea's</a> Getting Rogue with git-svn, it has been a great help for me.
