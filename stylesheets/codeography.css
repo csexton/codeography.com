@@ -1,5 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Inconsolata");
 @import url("http://fonts.googleapis.com/css?family=Cantarell");
+
 .purple {color: #5C359B; }
 .green { color: #448E32; }
 .orange { color: #ff6000; }
@@ -52,13 +53,12 @@ a.image_link:hover {
   background: none;
 }
 pre {
-  font-family: 'Inconsolata', Monaco, "Courier New", Courier, monospace;
-  background: #222;
   background: #222222 url('../images/shadow.png') repeat-x 0 0;
   padding: 1em;
   overflow: auto;
   color: white;
   font-size: 0.9em;
+  font-family: 'Inconsolata', Monaco, "Courier New", Courier, monospace;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
