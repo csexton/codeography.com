@@ -1,3 +1,4 @@
+@import url("http://fonts.googleapis.com/css?family=Inconsolata");
 .purple {color: #5C359B; }
 .green { color: #448E32; }
 .orange { color: #ff6000; }
@@ -46,6 +47,7 @@ a.image_link:hover {
   background: none;
 }
 pre {
+  font-family: 'Inconsolata', Monaco, "Courier New", Courier, monospace;
   background: #222;
   background: #222222 url('../images/shadow.png') repeat-x 0 0;
   padding: 1em;
