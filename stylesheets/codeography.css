@@ -19,6 +19,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Cantarell', arial, serif;
   font-weight:bold;
   color:#222;
+  border: none;
+}
+h1, h2, h3 {
+  color: #448E32;
+  text-shadow: 4px 4px 4px #bbb;
 }
 h4 {margin-bottom: 0.3em}
 h5 {margin-bottom: 0.3em}
