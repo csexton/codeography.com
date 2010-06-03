@@ -2,7 +2,7 @@
 layout: base
 title: Christopher Sexton
 ---
-# Christopher Sexton
+# Christopher Sexton's CV
 
 If you would like to discuss a project please drop me an email at 
 <script language="Javascript" type="text/javascript">
@@ -18,9 +18,6 @@ document.write('&#99;&#115;&#101;&#120;&#116;&#111;&#110;&#46;&#99;&#111;&#109;<
 // -->
 </script><noscript>&#99;&#118; at &#99;&#115;&#101;&#120;&#116;&#111;&#110; dot &#99;&#111;&#109;</noscript>.
 
-Or you can find me on twitter at [@fuzzymonk](http://twitter.com/fuzzymonk).
-
-
 
 ## Personal Statement
 
@@ -30,7 +27,6 @@ I take pride in doing it all, being a jack of all trades. Sure, I recognize when
 
 Pair programs well with others and can take on a project solo. Also have experience leading geographically distributed teams. I want to know and understand the business side, and only want to work for a company that I believe in. 
 
-If you are so inclined, you can see my portfolio [here](/portfolio/)
 
 ## Experience
 
@@ -171,6 +167,8 @@ Photoshop, Illustrator, Flash, After Effects, Final Cut Pro
 
 ### Projects and Links
 
+I have a few examples of my desing work up in my [portfolio](/portfolio/).
+
 I have a technical blog at [codeography.com](http://www.codeography.com/). For those curious (and to save you from having to use google) my personal blog is [fuzzymonk.com](http://www.fuzzymonk.com).
 
 I have many of my personal projects up on [github](http://github.com/csexton), feel free to browse them.
@@ -179,6 +177,7 @@ A couple to get you started:
 
  * [Captured](http://github.com/csexton) - Quick screen capture sharing for OS X.
  * [ohai plugin howto](http://github.com/csexton/ohai-plugin-howto) - Tutorial I wrote on creating ohai plugins.
+ * [Dotfiles](http://github.com/csexton/dotfiles) - You can tell alot about a coder by what they put in their `.dotfiles`.
 
 ### Background
 
