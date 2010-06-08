@@ -1,31 +1,16 @@
 ---
-layout: base
+layout: brag
 title: Christopher Sexton
 ---
-# Christopher Sexton's CV
+<!--# Christopher Sexton's CV -->
 
-If you would like to discuss a project please drop me an email at 
-<script language="Javascript" type="text/javascript">
-<!--
-document.write('<a href="mai');
-document.write('lto');
-document.write(':&#99;&#118;');
-document.write('@');
-document.write('&#99;&#115;&#101;&#120;&#116;&#111;&#110;&#46;&#99;&#111;&#109;">');
-document.write('&#99;&#118;');
-document.write('@');
-document.write('&#99;&#115;&#101;&#120;&#116;&#111;&#110;&#46;&#99;&#111;&#109;<\/a>');
-// -->
-</script><noscript>&#99;&#118; at &#99;&#115;&#101;&#120;&#116;&#111;&#110; dot &#99;&#111;&#109;</noscript>.
+<span style="font-weight:bold;font-size:32px;">Hello, I'm Christopher.</span>
 
+I am a software engineer that dabbles in graphic design, project management and system administration. I love to build stuff, learn quickly, want to do it right, and I care about the details.
 
-## Personal Statement
+I take pride in being able to do it all, being a jack of all trades. Sure, I recognize when I need to let an expert consult, I want to understand their how and why.
 
-I am a software engineer that dabbles in graphic design, project management and system administration. I love to build stuff, learn quickly, want to do it right, and care about the details.
-
-I take pride in doing it all, being a jack of all trades. Sure, I recognize when I need to let an expert consult, I want to know their how and why.
-
-Pair programs well with others and can take on a project solo. Also have experience leading geographically distributed teams. I want to know and understand the business side, and only want to work for a company that I believe in. 
+I pair programs well with others and can take on a project solo. I have experience working with and leading geographically distributed teams. I want to understand the business side of things, and only want to work on a project that I can believe in. 
 
 
 ## Experience
