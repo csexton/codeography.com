@@ -24,7 +24,7 @@ I pair program well with others and can take on a project solo. I have experienc
 
 This began as a tiny start up company, Swapdrive. When I first started there was only one other programmer in the office. I learned more about software business and development here than I did at every other company combined. We had to make it work ourselves or we would fail. I got to take on responsibility that I would have never considered, including interviewing and building teams, driving process decisions, and actually shipping products under insane schedules.
 
-I was one of 3 developer leads and played a key role in exiting the company for [$124 M](http://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Symantec).
+I was one of 3 developer leads and played a key role in exiting the company for [$124M](http://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Symantec).
 
 #### The Big Products
 
