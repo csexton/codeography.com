@@ -8,7 +8,7 @@ title: Christopher Sexton
 
 I am a software engineer that dabbles in graphic design, project management and system administration. I love to build stuff, learn quickly, want to do it right, and I care about the details.
 
-I take pride in being able to do it all, being a jack of all trades. Sure, I recognize when I need to let an expert consult, I want to understand their how and why.
+I take pride in being a jack of all trades. I want to be able to do it all. I recognize when I need to let an expert consult, I want to understand their how and why.
 
 I pair program well with others and can take on a project solo. I have experience working with and leading geographically distributed teams. I want to understand the business side of things, and only want to work on a project that I can believe in. 
 
@@ -30,17 +30,23 @@ I was one of 3 developer leads and played a key role in exiting the company for 
 
 ##### Norton Online Backup
 
-Created a new Norton-branded product in 9 months. This consisted of a small agent that would run on the client computers and talk via a REST API to the Ruby On Rails application. My primary role was in developing the Rails application, and other supporting components. From the database schema to the Event Machine based polling servers. I also designed the physical infrastructure and trained a Windows centric datacenter staff to support linux applications.
+<div style="float: right" class="noprint"><img src="images/nobu.png"></div>
 
-Version 2 of Norton Online Backup included a complete port of the backup engine to Mac. My primary responsibilities were shifted to supporting the Mac client and the new posix-compliant backup engine. Despite the fact that we had to port our entire client, as well as make all the customizations in the web application to support this new platform we were able to add functionality and ship the product. We received great reviews in the press and with the help of our partners expanded our new customer rate to a steady 10,000 new users a day.
+Created a new Norton-branded product in 9 months. This consisted of a small agent that would run on the client computers and talk via a REST API to the Ruby on Rails application. My primary role was in developing the Rails application, but I also developed other supporting components from the database schema to the Event Machine based polling servers. I also designed the physical infrastructure and trained a Windows centric datacenter staff to support linux applications.
 
-Post v2 we added mobile devices, when we released iPhone and Android apps and focused on lowering error rates and increasing conversions.
+Version 2 of Norton Online Backup included a complete port of the backup engine to Mac. My primary responsibilities were shifted to supporting the Mac client and the new posix-compliant backup engine. Despite the fact that we had to port our entire client, as well as make all the customizations in the web application to support this new platform we were able to add functionality and ship in 8 months. We received great reviews in the press and with the help of our partners grew our new customer rate to a steady 10,000 new users a day.
+
+Post v2 we added mobile devices, when we released iPhone, Android apps and focused on lowering error rates and increasing conversions.
+
 
 ##### Dell DataSafe Online
 
-I started the project from scratch and worked closely with Dell's design team to build a fully branded and integrated application. I managed the entire product from a technical side, while coding the desktop client. This client went through two iterations: v1.0 MFC/C++ with a custom built integrated web server for the local html front end; and v1.1, which was written in C#.NET. In v2.0 this product was migrated to a white label version of Norton Online Backup.
+<!--div style="float: right"><img src="http://i.dell.com/images/global/services/screenshot.jpg"></div-->
+<div style="float: right" class="noprint"><img src="images/dso.png"></div>
 
-DataSafe was very exciting, and there was always something new and challenging. I supported Michael Dell when his design firm could not finish the slides he used to unveil DataSafe in his CES keynote. We also had a spin-off project where we integrated our back end storage into their factories for PC to PC Migration.
+I started this project from scratch and worked closely with Dell's design team to build a fully branded and integrated application. I managed the entire technical side of this product, and coded the desktop client. This client went through two iterations: v1.0 MFC/C++ with a custom built integrated web server for the local html front end; and v1.1, which was written in C#.NET. In v2.0 this product was migrated to a white label version of Norton Online Backup.
+
+DataSafe was very exciting, and there was always something new and challenging. I supported Michael Dell directly by developing the slides he used to unveil DataSafe Online in his CES 2007 keynote. I also supported a spin-off project where we integrated our back end storage into their factories for PC to PC Migration.
 
 #### Odd Jobs and Other Responsibilities
 
@@ -94,7 +100,7 @@ Engineer
  * Maintained and modified video on demand gateway code
  * Designed and created flash web page and flash demos of the products
 
-
+<!--
 ### Circuit City Stores, Inc.
 
 <div class='byline'>
@@ -105,6 +111,7 @@ Programmer Intern
 
  * Contributed to the versaDOS-Pascal to Unix-C conversion projects
  * Verified and Validated Circuit City Point of Sale system 
+ -->
 
 ### Virginia Tech VC-Perts
 
@@ -139,15 +146,15 @@ B.S. Computer Engineering Virginia Tech, Class of 2000.
 
 ###### Fancy list of technologies I have worked with
 
-Ruby, Rails, JavaScript, Python, C, C++, C#, Objective-C, Java, SQL, Bash Script, Zsh Script, Vim Script, PHP, ASP, Action Script
+Ruby, Rails, JavaScript, Python, C, C++, C#, Objective-C, Java, SQL, Bash Script, Zsh Script, Vim Script, PHP, ASP, ActionScript
 
 ###### Applications I am handy with
 
-Photoshop, Illustrator, Flash, After Effects, Final Cut Pro
+Photoshop, Illustrator, Flash, After Effects, Inkscape, Balsamiq, Final Cut Pro
 
 ### Projects and Links
 
-I have a few examples of my desing work up in my [portfolio](/portfolio/).
+You can find a sampling of design work in my [portfolio](/portfolio/).
 
 I have a technical blog at [codeography.com](http://www.codeography.com/). For those curious (and to save you from having to use google) my personal blog is [fuzzymonk.com](http://www.fuzzymonk.com).
 
@@ -164,6 +171,8 @@ A couple to get you started:
 In addition to my obsession with computers I also have other interests. 
 
 I study and teach a Chinese martial art, Wushu. In fact I made the [US National Team in 2005](http://www.usawkf.com/news/detail.php?aid=334), and was able to represent my country at the Wushu World Championships and Pan American Wushu Games.
+
+Being a big fan of BBQ I enjoy cooking large cuts of meat on the smoker for long amounts of time. I hope to perfect this craft, but it is going to require more pratice.
 
 I am also a dad, and take great pride in my two beautiful children. They are, without doubt, the best thing in my life.
 
