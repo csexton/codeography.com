@@ -163,7 +163,7 @@ I have many of my personal projects up on [github](http://github.com/csexton), f
 A couple to get you started:
 
  * [Captured](http://github.com/csexton) - Quick screen capture sharing for OS X.
- * [ohai plugin howto](http://github.com/csexton/ohai-plugin-howto) - Tutorial I wrote on creating ohai plugins.
+ * [ohai plugin howto](http://www.codeography.com/2009/10/21/creating-custom-ohai-plugins.html) - Tutorial I wrote on creating ohai plugins.
  * [Dotfiles](http://github.com/csexton/dotfiles) - You can tell alot about a coder by what they put in their `.dotfiles`.
 
 ### Background
