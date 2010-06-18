@@ -6,12 +6,9 @@ title: Christopher Sexton
 
 <span style="font-weight:bold;font-size:32px;">Hello, I'm Christopher.</span>
 
-I am a software engineer that dabbles in graphic design, project management and system administration. I love to build stuff, learn quickly, want to do it right, and I care about the details.
+I am a software engineer that has done a fair bit of graphic design, project management and system administration. I love to build stuff, learn quickly, want to do it right, and I care about the details. I enjoy wearing lots of hats and doing many different things, from subtle UI tweaks to scaling systems to handle millions of users.
 
-I take pride in being a jack of all trades. I want to be able to do it all. I recognize when I need to let an expert consult, I want to understand their how and why.
-
-I pair program well with others and can take on a project solo. I have experience working with and leading geographically distributed teams. I want to understand the business side of things, and only want to work on a project that I can believe in. 
-
+I love to pair program but am comfortable taking on a project solo. I have experience working with and leading geographically distributed teams. I want to understand the business side of things, make real decisions, and I want to work on a project that I can believe in. 
 
 ## Experience
 
@@ -22,7 +19,7 @@ I pair program well with others and can take on a project solo. I have experienc
   2005-Present
   </div>
 
-This began as a tiny start up company, Swapdrive. When I first started there was only one other programmer in the office. I learned more about software business and development here than I did at every other company combined. We had to make it work ourselves or we would fail. I got to take on responsibility that I would have never considered, including interviewing and building teams, driving process decisions, and actually shipping products under insane schedules.
+This began as a tiny start up company, Swapdrive. When I first started there was only one other programmer in the office. Being a rag-tag small company, we had to make it work ourselves or we would fail. This was my real foray into the business of software, and learn how to interact with massive corporations and small partners. I got to take on responsibility that I would have never considered, including interviewing and building teams, driving process decisions, and actually shipping products under insane schedules.
 
 I was one of 3 developer leads and played a key role in exiting the company for [$124M](http://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Symantec).
 
@@ -32,7 +29,7 @@ I was one of 3 developer leads and played a key role in exiting the company for 
 
 <div style="float: right" class="noprint"><img src="images/nobu.png"></div>
 
-Created a new Norton-branded product in 9 months. This consisted of a small agent that would run on the client computers and talk via a REST API to the Ruby on Rails application. My primary role was in developing the Rails application, but I also developed other supporting components from the database schema to the Event Machine based polling servers. I also designed the physical infrastructure and trained a Windows centric datacenter staff to support linux applications.
+Created a new Norton-branded product in 9 months. This consisted of a small agent that would run on the client computers and talk via a REST API to the Ruby on Rails application. My primary role was in developing the Rails application, but I also developed other supporting components from the database schema to the Event Machine based polling servers. I also designed the physical infrastructure and trained a Windows centric datacenter staff to support Linux applications.
 
 Version 2 of Norton Online Backup included a complete port of the backup engine to Mac. My primary responsibilities were shifted to supporting the Mac client and the new posix-compliant backup engine. Despite the fact that we had to port our entire client, as well as make all the customizations in the web application to support this new platform we were able to add functionality and ship in 8 months. We received great reviews in the press and with the help of our partners grew our new customer rate to a steady 10,000 new users a day.
 
