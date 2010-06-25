@@ -24,7 +24,7 @@ And this will give you a similar status line trick to fugitive:
 
 What good is this hotness with out a screen shot?
 
-![rvm statusline](images/vimrvm.png)
+![rvm statusline](/images/vimrvm.png)
 
 If you want your status line to look just like this, this is how to do it:
 
