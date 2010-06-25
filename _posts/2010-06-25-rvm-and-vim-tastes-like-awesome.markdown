@@ -4,7 +4,7 @@ title: "rvm and vim combined: tastes like awesome"
 published: true
 ---
 
-After a [tweet](http://twitter.com/bryanl/status/17013225815) about vim status lines by non other than [@bryanl](http://twitter.com/bryanl/) I set out to get git and rvm info in vim's status line. Well, git was easy since I was using Tim Pope's fugitive plugin:
+After a [tweet](http://twitter.com/bryanl/status/17013225815) about vim status lines by non other than Bryan Lyles I set out to get git and rvm info in vim's status line. Well, git was easy since I was using Tim Pope's fugitive plugin:
 
     set statusline+=%{fugitive#statusline()}
 
@@ -29,3 +29,5 @@ What good is this hotness with out a screen shot?
 If you want your status line to look just like this, this is how to do it:
 
     set statusline=[%n]\ %<%.99f\ %h%w%m%r%y%{exists('g:loaded_fugitive')?fugitive#statusline():''}%{exists('g:loaded_rvm')?rvm#statusline():''}%=%-16(\ %l,%c-%v\ %)%P
+
+What's on your vim status line?
