@@ -4,7 +4,7 @@ title: "rvm and vim combined: tastes like awesome"
 published: true
 ---
 
-After a [tweet](http://twitter.com/bryanl/status/17013225815) about vim status lines by non other than Bryan Lyles I set out to get git and rvm info in vim's status line. Well, git was easy since I was using Tim Pope's fugitive plugin:
+After a [tweet](http://twitter.com/bryanl/status/17013225815) about vim status lines by non other than [Bryan Lyles](http://smartic.us/) I set out to get git and rvm info in vim's status line. Well, git was easy since I was using Tim Pope's fugitive plugin:
 
     set statusline+=%{fugitive#statusline()}
 
