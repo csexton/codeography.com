@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "rvm and vim combined tastes like awesome"
+title: "rvm and vim combined: tastes like awesome"
 published: true
 ---
 
@@ -12,7 +12,7 @@ But had no such luck with rvm, so I decided to roll my own. And thus we have [rv
 
 Installation is easy, just go back to the aforementioned command line and paste this in:
 
-    > curl http://github.com/csexton/rvm.vim/raw/master/plugin/rvm.vim > ~/.vim/plugin/rvm.vim
+    curl http://github.com/csexton/rvm.vim/raw/master/plugin/rvm.vim > ~/.vim/plugin/rvm.vim
 
 Or if you are one of the cool kids and use [pathogen](http://github.com/tpope/vim-pathogen) you can just clone the repo into your bundle directory:
 
