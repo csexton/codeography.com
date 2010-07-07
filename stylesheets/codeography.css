@@ -76,12 +76,18 @@ h2.title {
   padding-bottom: 0;
 }
 #header {
-  padding-top: 2em;
+  padding-top: 15px;
 }
 #header_row {
   background: white url('../images/title_bg.png') repeat-x 0 0;
-  height: 100px;
+  height: 80px;
 }
+.header_by_line {
+  color: #606060; 
+  height: 80px;
+  padding-top: 20px;
+}
+
 #footer {
 background: #222222 url('../images/shadow.png') repeat-x 0 0;
 color: white;
