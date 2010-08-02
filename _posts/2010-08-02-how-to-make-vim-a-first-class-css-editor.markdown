@@ -6,13 +6,13 @@ published: true
 
 I have always struggled with CSS in vim. Seems like it would be easy to implement compared to auto-complete in other filetypes. 
 
-All I really wanted to have was some sort of reminder on what was valid properties and where to put the posistional arguments when I am using the shorthand properties. 
+All I really wanted to have was some sort of reminder on what was valid properties and where to put the positional arguments when I am using the shorthand properties. 
 
 Today I discovered the two things I needed to fix this. SnipMate and Omnicomplete
 
 ## SnipMate
 
-I forked the basic snipmate and added some simple snippets for css. If you want to use it, then you can install from my github repo directly
+I forked the basic SnipMate and added some simple snippets for CSS. If you want to use it, then you can install from my GitHub repo directly
 
     git clone git://github.com/csexton/snipmate.vim.git
     cd snipmate.vim
@@ -22,13 +22,13 @@ Or you can just grab the [css.snippets](http://github.com/csexton/snipmate.vim/b
 
 ## Omnicomplete
 
-This is built in to Vim 7, I just didn't realize it worked for CSS. a simple `crtl-x ctrl-o` and it sould attempt to complete your word for you. Cool thing is that if you use it after a propertie before you even start to type you can invoke it to get a list of properties.
+This is built in to Vim 7, I just didn't realize it worked for CSS. a simple `crtl-x ctrl-o` and it should attempt to complete your word for you. Cool thing is that if you use it after a property before you even start to type you can invoke it to get a list of properties.
 
 If this does not work, should make sure that the omnifunc it set to use the CSS completer:
 
     :set omnifunc=csscomplete#CompleteCSS
 
-## Makeing the CSS Dance
+## Making the CSS Dance
 
 Now that you have both of those installed you can do cool stuff like complete your property values
 
