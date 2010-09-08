@@ -135,7 +135,7 @@ Information Management Chair
 
 ## Education
 
-B.S. Computer Engineering Virginia Tech, Class of 2000. 
+B.S. Computer Engineering Virginia Tech, Class of 2000
 
 ## Other
 
@@ -143,11 +143,17 @@ B.S. Computer Engineering Virginia Tech, Class of 2000.
 
 ###### Fancy list of technologies I have worked with
 
-Ruby, Rails, JavaScript, Python, C, C++, C#, Objective-C, Java, SQL, Bash Script, Zsh Script, Vim Script, PHP, ASP, ActionScript
+Programming Languages:
 
-###### Applications I am handy with
+Ruby, JavaScript, Python, C, C++, C#, Objective-C, Java, SQL, Bash Script, Zsh Script, Vim Script, PHP, ASP, ActionScript
 
-Photoshop, Illustrator, Flash, After Effects, Inkscape, Balsamiq, Final Cut Pro
+Libraries and Frameworks:
+
+Rails, Rspec, Cucumber, HAML, SASS (and SCSS), Rack, EventMachine, Ruby Gems, Chef, Memcached, Passenger, Apache, MFC, WinForms, ASP.NET, Boost, libevent, libmemcached
+
+Applications:
+
+Photoshop, Illustrator, Flash, After Effects, Inkscape, Balsamiq, Final Cut Pro, Visual Studio
 
 ### Projects and Links
 
