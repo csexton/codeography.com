@@ -33,7 +33,6 @@ h5 {margin-bottom: 0.3em}
 div.border {border-color:#606060;}
 div.colborder {border-color:#606060;}
 a {
-  color: #670100;
   color: #97031F;
   text-decoration: underline;
   /*border-bottom:1px dotted #333333;*/
@@ -44,13 +43,10 @@ a:visited {
   color: #670100;
 }
 a:active {
-  /*background: #333333;*/
   color: #670100;
 }
 a:hover {
   text-decoration: underline;
-  /*background: #CCC;*/
-  color: #97031F;
   color: red;
 }
 a.image_link {
@@ -82,31 +78,23 @@ h2.title {
 }
 
 #footer a {
-  color: #aaa;
   color: #B35151;
 }
 
 #footer {
-  background: #97031F url('../images/shadow.png') repeat-x 0 0;
   background: #670000 url('../images/shadow.png') repeat-x 0 0;
   color: #D99898;
 }
 #footer h5, #footer h6 {
   color: white;
 }
-/*
-  #footer div, #footer a {
-  color: blue;
-}
-  */
 .content {
   background: white url('../images/shadow.png') repeat-x 0 0;
-  background-color: white;
   color: black;
 }
 
 .footer {
-  border-bottom:4px solid #eee;
+  border-bottom:4px solid #D99898;
 }
 /* Forms */
 
