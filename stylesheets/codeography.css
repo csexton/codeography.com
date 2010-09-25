@@ -17,6 +17,7 @@ body {
   color: #e6e6e6;
 }
 hr {background:#606060;color:#606060;}
+hr.space {background:none;color:none;}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cantarell', arial, serif;
   font-weight:bold;
@@ -25,20 +26,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1, h2, h3 {
   color: #97031F;
-  text-shadow: 3px 3px 3px #bbb;
+  text-shadow: 2px 2px 2px #bbb;
 }
 h4 {margin-bottom: 0.3em}
 h5 {margin-bottom: 0.3em}
 div.border {border-color:#606060;}
 div.colborder {border-color:#606060;}
 a {
-  color: #38A0C3;
   color: #670100;
+  color: #97031F;
   text-decoration: underline;
   /*border-bottom:1px dotted #333333;*/
 }
 a:link {
-  text-decoration: none;
 }
 a:visited {
   color: #670100;
@@ -51,6 +51,7 @@ a:hover {
   text-decoration: underline;
   /*background: #CCC;*/
   color: #97031F;
+  color: red;
 }
 a.image_link {
   text-decoration: none;
@@ -82,13 +83,15 @@ h2.title {
 
 #footer a {
   color: #aaa;
+  color: #B35151;
 }
 
 #footer {
-background: #97031F url('../images/shadow.png') repeat-x 0 0;
-color: #eee;
+  background: #97031F url('../images/shadow.png') repeat-x 0 0;
+  background: #670000 url('../images/shadow.png') repeat-x 0 0;
+  color: #D99898;
 }
-  #footer h5, #footer h6 {
+#footer h5, #footer h6 {
   color: white;
 }
 /*
@@ -97,13 +100,13 @@ color: #eee;
 }
   */
 .content {
+  background: white url('../images/shadow.png') repeat-x 0 0;
   background-color: white;
   color: black;
-  border-bottom:4px solid #999;
 }
 
 .footer {
-  border-bottom:4px solid #999;
+  border-bottom:4px solid #eee;
 }
 /* Forms */
 
@@ -148,5 +151,4 @@ select {}
 select option {}
 select optgroup {}
 textarea {}
-
 
