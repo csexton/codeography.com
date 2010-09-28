@@ -1,6 +1,6 @@
 ---
 layout: taskme
-title: TaskMe
+title: Task Me - Direct to Your Inbox
 ---
 
 # Task Me 
