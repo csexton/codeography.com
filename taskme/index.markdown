@@ -13,4 +13,4 @@ Removes any repetitive steps for sending yourself simple email notes, with a sim
 
 Both Gmail and MobileMe have easy setup built right in, but Task Me can also be configured manually to be used with most SMTP servers.
 
-
+Get it now from the [iTunes App Store](http://itunes.apple.com/us/app/task-me/id394594189?mt=8&ign-mpt=uo).
