@@ -29,76 +29,66 @@
       }
     </style>
 
-</head>
-<body>
-<div class="container">
-  <div class="span-13 prepend-0 append-0">
-    <img alt="Task Me Logo" src="/taskme/images/logo-large.png" />
-  </div>
-  <div class="span-9 prepend-0">
-    {{ content }}
-    <a href="http://itunes.apple.com/us/app/task-me/id394594189?mt=8&ign-mpt=uo">
-      <img src="/images/app-store-badge.png" alt="App Store Badge" />
-    </a>
-  </div>
-  <hr>
-    
-    <div class="reviews prepend-2 append-1 span-10">
-    <p>
-      ★★★★ " I Love this whole idea and it is exactly what I wanted, and it's freaking free!! Bless you!"  by soundmaster80
-    </p>
+    {% include ga.html %}
+  </head>
+  <body>
+    <div class="container">
+      <div class="span-13 prepend-0 append-0">
+        <img alt="Task Me Logo" src="/taskme/images/logo-large.png" />
+      </div>
+      <div class="span-9 prepend-0">
+        {{ content }}
+        <a href="http://itunes.apple.com/us/app/task-me/id394594189?mt=8&ign-mpt=uo">
+          <img src="/images/app-store-badge.png" alt="App Store Badge" />
+        </a>
+      </div>
+      <hr>
 
-    <p>
-      ★★★★ "Great idea" by Romeo Robles
-    </p>
+      <div class="reviews prepend-2 append-1 span-10">
+        <p>
+          ★★★★ " I Love this whole idea and it is exactly what I wanted, and it's freaking free!! Bless you!"  by soundmaster80
+        </p>
+
+        <p>
+          ★★★★ "Great idea" by Romeo Robles
+        </p>
+      </div>
+
+      <div class="reviews span-10 last">
+        <p>
+          ★★★★ "It's easy to use, it works well, no iAds and it's free!" by SentiInChicago
+        </p>
+        <p>
+          ★★★★ "Perfect for the A.D.D. administrator like me!"  by soundmaster80
+        </p>
+      </div>
+      <div class="prepend-0 span-5">
+        <img src="/taskme/images/screenshot-01.png" alt="Screen Shot 1" />
+      </div>
+      <div class="span-5">
+        <img src="/taskme/images/screenshot-02.png" alt="Screen Shot 2" />
+      </div>
+      <div class="span-5">
+        <img src="/taskme/images/screenshot-03.png" alt="Screen Shot 3" />
+      </div>
+      <div class="span-5">
+        <img src="/taskme/images/screenshot-04.png" alt="Screen Shot 4" />
+      </div>
     </div>
 
-    <div class="reviews span-10 last">
-    <p>
-      ★★★★ "It's easy to use, it works well, no iAds and it's free!" by SentiInChicago
-    </p>
-    <p>
-      ★★★★ "Perfect for the A.D.D. administrator like me!"  by soundmaster80
-    </p>
-    </div>
-  <div class="prepend-0 span-5">
-    <img src="/taskme/images/screenshot-01.png" alt="Screen Shot 1" />
-  </div>
-  <div class="span-5">
-    <img src="/taskme/images/screenshot-02.png" alt="Screen Shot 2" />
-  </div>
-  <div class="span-5">
-    <img src="/taskme/images/screenshot-03.png" alt="Screen Shot 3" />
-  </div>
-  <div class="span-5">
-    <img src="/taskme/images/screenshot-04.png" alt="Screen Shot 4" />
-  </div>
-</div>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-6090240-3");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
-<script type="text/javascript">
-  //<![CDATA[
-  (function() {
-    var links = document.getElementsByTagName('a');
-    var query = '?';
-    for(var i = 0; i < links.length; i++) {
-      if(links[i].href.indexOf('#disqus_thread') >= 0) {
-        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-      }
-    }
-    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/codeography/get_num_replies.js' + query + '"></' + 'script>');
-    })();
-//]]>
-</script>
-
+    <script type="text/javascript">
+      //<![CDATA[
+      (function() {
+        var links = document.getElementsByTagName('a');
+        var query = '?';
+        for(var i = 0; i < links.length; i++) {
+          if(links[i].href.indexOf('#disqus_thread') >= 0) {
+            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+          }
+        }
+        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/codeography/get_num_replies.js' + query + '"></' + 'script>');
+        })();
+      //]]>
+    </script>
   </body>
 </html>
