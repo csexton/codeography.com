@@ -1,5 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Inconsolata");
 @import url("http://fonts.googleapis.com/css?family=Cantarell");
+@import url("http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT");
 
 .purple {color: #5C359B; }
 .green { color: #448E32; }
@@ -19,7 +20,7 @@ body {
 hr {background:#606060;color:#606060;}
 hr.space {background:none;color:none;}
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cantarell', arial, serif;
+  font-family: 'OFL Sorts Mill Goudy TT', arial, serif; 
   font-weight:bold;
   color:#222;
   border: none;
