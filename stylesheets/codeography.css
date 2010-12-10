@@ -26,8 +26,8 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
 }
 h1, h2, h3 {
-  color: #97031F;
-  text-shadow: 2px 2px 2px #bbb;
+  color: black;
+  text-shadow: 1px 1px 1px #eee;
 }
 h4 {margin-bottom: 0.3em}
 h5 {margin-bottom: 0.3em}
@@ -71,6 +71,7 @@ h2.title {
 #header_row {
   background: #670100 url('../images/header.png') no-repeat;
   height: 135px;
+  margin-top: -25px;
 }
 .header_by_line {
   color: #606060; 
@@ -95,7 +96,7 @@ h2.title {
 }
 
 .footer {
-  border-bottom:4px solid #D99898;
+  border-bottom:thin dotted black;
 }
 /* Forms */
 
