@@ -89,7 +89,7 @@ layout: nil
   &#60;title>Codeography&#60;/title>
   &#60;link href="http://codeography.com/atom.xml" rel="self"/>
   &#60;link href="http://codeography.com/"/>
-  &#60;updated>&#123;&#123;site.time | date\_to\_xmlschema }}&#60;/updated>
+  &#60;updated>&#123;&#123;site.time | date_to_xmlschema }}&#60;/updated>
   &#60;id>http://codeography.com/&#60;/id>
   &#60;author>
     &#60;name>Christopher Sexton&#60;/name>
@@ -99,9 +99,9 @@ layout: nil
   &#60;entry>
     &#60;title>&#123;&#123; post.title }}&#60;/title>
     &#60;link href="http://codeography.com{{ post.url }}"/>
-    &#60;updated>&#123;&#123;post.date | date\_to\_xmlschema }}&#60;/updated>
+    &#60;updated>&#123;&#123;post.date | date_to_xmlschema }}&#60;/updated>
     &#60;id>http://codeography.com&#123;&#123; post.id }}&#60;/id>
-    &#60;content type="html">{&#123; post.content | xml\_escape }}&#60;/content>
+    &#60;content type="html">{&#123; post.content | xml_escape }}&#60;/content>
   &#60;/entry>
   &#123;% endfor %}
 &#60;/feed>

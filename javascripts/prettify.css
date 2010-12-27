@@ -1,17 +1,15 @@
 /* Pretty printing styles. Used with prettify.js. */
 
-.str { color:#66FF00; }
-.kwd { color:#FF6600; }
-.com { color:#AA66FF; }
-.typ { color:#AAAA77; }
-.lit { color:#66FF00; }
-.pun { color:#FFFFFF; }
-.pln { color:#FFF; }
-.tag { color:#369; }
-.atn { color:#AAAA77; }
-.atv { color:#DDE93D; }
-.dec { color:#44B4CC; }
-
+.str { color: #600; }
+.kwd { color: #006; font-weight: bold; }
+.com { color: #050; }
+.typ { color: #404; font-weight: bold; }
+.lit { color: #044; }
+.pun { color: #440; }
+.pln { color: #000; }
+.tag { color: #006; font-weight: bold; }
+.atn { color: #404; }
+.atv { color: #060; }
 
 @media print {
   .str { color: #060; }
@@ -24,4 +22,15 @@
   .tag { color: #006; font-weight: bold; }
   .atn { color: #404; }
   .atv { color: #060; }
+}
+
+pre {
+  background: #F0F0F0 url('../images/shadow.png') repeat-x 0 0;
+  padding: 1em;
+  overflow: auto;
+  color: #404040;
+  font-size: 0.9em;
+  font-family: 'Inconsolata', Monaco, "Courier New", Courier, monospace;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
 }

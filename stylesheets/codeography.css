@@ -1,5 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Inconsolata");
 @import url("http://fonts.googleapis.com/css?family=Cantarell");
+@import url("http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT");
 
 .purple {color: #5C359B; }
 .green { color: #448E32; }
@@ -9,46 +10,45 @@
 .old_green { color: #009900; }
 .old_purple { color: #b960ff; }
 
+.dark_red { color: #670100; }
+
 body {
   font: 0.9em/1.5 "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
   color: #999;
   color: #e6e6e6;
 }
 hr {background:#606060;color:#606060;}
+hr.space {background:none;color:none;}
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cantarell', arial, serif;
+  font-family: 'OFL Sorts Mill Goudy TT', arial, serif; 
   font-weight:bold;
   color:#222;
   border: none;
 }
 h1, h2, h3 {
-  color: #448E32;
-  text-shadow: 3px 3px 3px #bbb;
+  color: black;
+  text-shadow: 1px 1px 1px #eee;
 }
 h4 {margin-bottom: 0.3em}
 h5 {margin-bottom: 0.3em}
 div.border {border-color:#606060;}
 div.colborder {border-color:#606060;}
 a {
-  color: #38A0C3;
-  color: #448E32;
+  color: #97031F;
   text-decoration: underline;
   /*border-bottom:1px dotted #333333;*/
 }
 a:link {
-  text-decoration: none;
 }
 a:visited {
-  color: #448E32;
+  color: #670100;
 }
 a:active {
-  /*background: #333333;*/
-  color: #448E32;
+  color: #670100;
 }
 a:hover {
-  text-decoration: none;
-  /*background: #CCC;*/
-  color: #448E32;
+  text-decoration: underline;
+  color: red;
 }
 a.image_link {
   text-decoration: none;
@@ -56,16 +56,6 @@ a.image_link {
 }
 a.image_link:hover {
   background: none;
-}
-pre {
-  background: #222222 url('../images/shadow.png') repeat-x 0 0;
-  padding: 1em;
-  overflow: auto;
-  color: white;
-  font-size: 0.9em;
-  font-family: 'Inconsolata', Monaco, "Courier New", Courier, monospace;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
 }
 .byline {
   color: #606060;
@@ -76,32 +66,37 @@ h2.title {
   padding-bottom: 0;
 }
 #header {
-  padding-top: 2em;
+  padding-top: 15px;
 }
 #header_row {
-  background: white url('../images/title_bg.png') repeat-x 0 0;
-  height: 100px;
+  background: #670100 url('../images/header.png') no-repeat;
+  height: 135px;
+  margin-top: -25px;
 }
+.header_by_line {
+  color: #606060; 
+  height: 80px;
+  padding-top: 20px;
+}
+
+#footer a {
+  color: #B35151;
+}
+
 #footer {
-background: #222222 url('../images/shadow.png') repeat-x 0 0;
-color: white;
+  background: #670000 url('../images/shadow.png') repeat-x 0 0;
+  color: #D99898;
 }
-  #footer h5, #footer h6 {
+#footer h5, #footer h6 {
   color: white;
 }
-/*
-  #footer div, #footer a {
-  color: blue;
-}
-  */
 .content {
-  background-color: white;
+  background: white url('../images/shadow.png') repeat-x 0 0;
   color: black;
-  border-bottom:4px solid #999;
 }
 
 .footer {
-  border-bottom:4px solid #999;
+  border-bottom:thin dotted black;
 }
 /* Forms */
 
@@ -146,5 +141,4 @@ select {}
 select option {}
 select optgroup {}
 textarea {}
-
 

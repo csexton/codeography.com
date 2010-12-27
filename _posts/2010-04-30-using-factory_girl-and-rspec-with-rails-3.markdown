@@ -4,6 +4,13 @@ title: "Using factory_girl and Rspec with Rails 3"
 published: true
 ---
 
+**Edit**: As Wes pointed out, the problems I was having were related to using the beta's of Rails, Rspec and Factory Girl. These are all resolved now, and the only trick is to make sure you use the [Factory Girl Rails](https://github.com/thoughtbot/factory_girl_rails) gem. Luckily that is as easy as dropping...
+
+    gem 'factory_girl_rails'` 
+
+...in to your Gemfile. Thanks Wes.
+
+-----
 
 Just like anything in Rails 3, start by editing my Gemfile to include Rspec and Factory Girl:
 

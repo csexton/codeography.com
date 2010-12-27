@@ -135,7 +135,7 @@ Information Management Chair
 
 ## Education
 
-B.S. Computer Engineering Virginia Tech, Class of 2000. 
+B.S. Computer Engineering Virginia Tech, Class of 2000
 
 ## Other
 
@@ -143,11 +143,17 @@ B.S. Computer Engineering Virginia Tech, Class of 2000.
 
 ###### Fancy list of technologies I have worked with
 
-Ruby, Rails, JavaScript, Python, C, C++, C#, Objective-C, Java, SQL, Bash Script, Zsh Script, Vim Script, PHP, ASP, ActionScript
+Programming Languages:
 
-###### Applications I am handy with
+Ruby, JavaScript, Python, C, C++, C#, Objective-C, Java, SQL, Bash Script, Zsh Script, Vim Script, PHP, ASP, ActionScript
 
-Photoshop, Illustrator, Flash, After Effects, Inkscape, Balsamiq, Final Cut Pro
+Libraries and Frameworks:
+
+Rails, Rspec, Cucumber, HAML, SASS (and SCSS), Rack, EventMachine, Ruby Gems, Chef, Memcached, Passenger, Apache, MFC, WinForms, ASP.NET, Boost, libevent, libmemcached
+
+Applications:
+
+Photoshop, Illustrator, Flash, After Effects, Inkscape, Balsamiq, Final Cut Pro, Visual Studio
 
 ### Projects and Links
 
@@ -169,7 +175,7 @@ In addition to my obsession with computers I also have other interests.
 
 I study and teach a Chinese martial art, Wushu. In fact I made the [US National Team in 2005](http://www.usawkf.com/news/detail.php?aid=334), and was able to represent my country at the Wushu World Championships and Pan American Wushu Games.
 
-Being a big fan of BBQ I enjoy cooking large cuts of meat on the smoker for long amounts of time. I hope to perfect this craft, but it is going to require more pratice.
+Being a big fan of BBQ I enjoy cooking large cuts of meat on the smoker for long amounts of time. I hope to perfect this craft, but it is going to require more practice.
 
 I am also a dad, and take great pride in my two beautiful children. They are, without doubt, the best thing in my life.
 
