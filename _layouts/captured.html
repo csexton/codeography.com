@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print">
+    <!--[if IE]><link rel="stylesheet" href="/stylesheets/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/codeography" />
+    <link href='http://fonts.googleapis.com/css?family=Cantarell:regular,bold&subset=latin' rel='stylesheet' type='text/css'>
+
+    <style>
+      body {
+        background: #010302 url('/captured/images/background.jpg') repeat 0 0;
+        font-size: 100%;
+      }
+      .container {
+        background: #ef97ed;
+        background-color: rgba(239,151,237,0.7);
+        margin-top: 30px;
+        padding-top: 20px;
+        border-radius: 20px;
+        color: black;
+      }
+      h1 { 
+        margin-top: 0.5em; 
+        font-family: 'Cantarell', arial, serif;
+        font-weight: bold;
+        color: white;
+        font-size: 4em;
+        margin-bottom: 10px;
+      }
+      .alt {
+        font-family: 'Cantarell', arial, serif;
+        color: rgba(255,255,255,0.7);
+        padding-left: 5px;
+      }
+
+      h2 { 
+        margin: 0;
+        color: white;
+      }
+      hr {
+        clear: both;
+        color: #010302;
+      }
+      .app-store{
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      .reviews p {
+        font-size: 90%;
+      }
+    </style>
+
+    {% include ga.html %}
+  </head>
+  <body>
+    <div class="container">
+      <div class="span-13 prepend-0 append-0">
+        <img alt="Captured Logo" src="/captured/images/logo-large.png" />
+        <div class="app-store">
+          <a href="http://www.apple.com/mac/app-store/">
+            <img src="/captured/images/available-on-mac-app-store.png" alt="Mac App Store Badge" />
+          </a>
+        </div>
+      </div>
+      <div class="span-9 prepend-0">
+        <h1>Captured</h1> 
+        <p class="alt">
+          Quick Screen Sharing for Mac OS X
+        </p>
+
+        <p>
+          <h2>Step 1: ⌘-⇧-4</h2>
+          Take a screen shot
+          <h2>Step 2: ⌘-V</h2>
+          Paste the link
+          <h2>Step 3: ?</h2>
+          There is no step 3
+        </p>
+
+        <hr />
+        <p>
+          Coming soon to the <a href="http://www.apple.com/mac/app-store/">Mac App Store</a>.
+        </p>
+        
+        {{ content }}
+      </div>
+      <!--<hr>
+
+      <div class="reviews prepend-2 append-1 span-10">
+        <p>
+          Left
+        </p>
+      </div>
+
+      <div class="reviews span-10 last">
+        <p>
+          right
+        </p>
+      </div>
+      -->
+    </div>
+
+    <script type="text/javascript">
+      //<![CDATA[
+      (function() {
+        var links = document.getElementsByTagName('a');
+        var query = '?';
+        for(var i = 0; i < links.length; i++) {
+          if(links[i].href.indexOf('#disqus_thread') >= 0) {
+            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+          }
+        }
+        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/codeography/get_num_replies.js' + query + '"></' + 'script>');
+        })();
+      //]]>
+    </script>
+  </body>
+</html>
