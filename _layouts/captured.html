@@ -22,6 +22,9 @@
         padding-top: 20px;
         border-radius: 20px;
         color: black;
+
+        border: 3px solid white;
+        
       }
       h1 { 
         margin-top: 0.5em; 
@@ -43,11 +46,28 @@
       }
       hr {
         clear: both;
-        color: #010302;
+        color: rgba(255,255,255,0.7);
+        background-color: rgba(255,255,255,0.7);
+        height: 1px;
       }
       .app-store{
-        margin-top: 50px;
-        margin-left: 50px;
+        margin-top: 10px;
+        margin-left: 30px;
+      }
+      .logo-pogo {
+        padding-top: 50px;
+      }
+      .footer {
+        font-family: 'Cantarell', arial, serif;
+        color: rgba(255,255,255,0.7);
+        width:500px;
+        margin:0px auto;
+        text-align:center;
+        padding:15px;
+      }
+      .footer a {
+        color: rgba(255,255,255,0.7);
+        text-decoration: none;
       }
       .reviews p {
         font-size: 90%;
@@ -58,7 +78,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="span-13 prepend-0 append-0">
+      <div class="logo-pogo span-13 prepend-0 append-0">
         <img alt="Captured Logo" src="/captured/images/logo-large.png" />
         <div class="app-store">
           <a href="http://www.apple.com/mac/app-store/">
@@ -72,51 +92,35 @@
           Quick Screen Sharing for Mac OS X
         </p>
 
+        <hr />
         <p>
           <h2>Step 1: ⌘-⇧-4</h2>
           Take a screen shot
           <h2>Step 2: ⌘-V</h2>
           Paste the link
-          <h2>Step 3: ?</h2>
-          There is no step 3
+          <h2>Step 3: Spoon</h2>
+          There is no Step 3
         </p>
-
         <hr />
+
         <p>
           Coming soon to the <a href="http://www.apple.com/mac/app-store/">Mac App Store</a>.
         </p>
-        
-        {{ content }}
       </div>
-      <!--<hr>
 
       <div class="reviews prepend-2 append-1 span-10">
         <p>
-          Left
+          {{ content }}
         </p>
       </div>
 
       <div class="reviews span-10 last">
         <p>
-          right
+          <img src="/captured/images/mac-air.png" alt="Mac Air Screenshot" />
         </p>
       </div>
-      -->
     </div>
 
-    <script type="text/javascript">
-      //<![CDATA[
-      (function() {
-        var links = document.getElementsByTagName('a');
-        var query = '?';
-        for(var i = 0; i < links.length; i++) {
-          if(links[i].href.indexOf('#disqus_thread') >= 0) {
-            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-          }
-        }
-        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/codeography/get_num_replies.js' + query + '"></' + 'script>');
-        })();
-      //]]>
-    </script>
+    <div class="footer">Built by Christopher Sexton from <a href="http://www.codeography.com/">Codeography</a></div>
   </body>
 </html>
