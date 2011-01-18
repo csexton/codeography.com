@@ -65,12 +65,19 @@ a.image_link:hover {
 h2.title {
   padding-bottom: 0;
 }
+#header h1{
+  color: #eee;
+  padding-top: 35px;
+  text-align: right;
+  font-family: 'Cantarell', arial, serif;
+  text-shadow: none;
+}
 #header {
   padding-top: 15px;
 }
 #header_row {
-  background: #670100 url('../images/header.png') no-repeat;
-  height: 135px;
+  background: #670100 url('../images/header.png') no-repeat 0 0;
+  height: 120px;
   margin-top: -25px;
 }
 .header_by_line {
