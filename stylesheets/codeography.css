@@ -67,7 +67,7 @@ h2.title {
 #header h1{
   color: #fff;
   padding: 0;
-  margin: -15px 0;
+  margin: 15px 0;
   text-align: right;
   font-family: 'Cantarell', arial, serif;
   text-shadow: none;
@@ -88,6 +88,14 @@ h2.title {
   background: #670100 url('../images/header.png') no-repeat 0 0;
   height: 120px;
   margin-top: -25px;
+}
+#header .nav {
+  text-align: right;
+  color: #D99898;
+}
+#header .nav a {
+  color: white;
+  color: #D99898;
 }
 .header_by_line {
   color: #606060; 
