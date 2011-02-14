@@ -12,7 +12,7 @@
 .dark_red { color: #670100; }
 
 body {
-  font: 0.9em/1.5 "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
+  font: 0.95em/1.5 "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
   color: #999;
   color: #e6e6e6;
 }
@@ -30,6 +30,7 @@ h1, h2, h3 {
 }
 h4 {margin-bottom: 0.3em}
 h5 {margin-bottom: 0.3em}
+pre, code, tt { background-color: #F0F0F0 }
 div.border {border-color:#606060;}
 div.colborder {border-color:#606060;}
 a {
@@ -80,6 +81,11 @@ h2.title {
   text-align: right;
   font-family: 'Cantarell', arial, serif;
   text-shadow: none;
+}
+#header h1 a{
+  text-decoration: none;
+  border-bottom: none;
+  color: #fff;
 }
 #header {
   padding-top: 15px;

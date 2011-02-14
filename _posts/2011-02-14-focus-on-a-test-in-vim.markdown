@@ -4,7 +4,7 @@ title: "Focus on a test in Vim"
 published: true
 ---
 
-I have found myself in the situation where I would have Vim running in one wondow, and a terminal open on the other monitor with my tests. And noticed I was constantly `⌘-tab;⌃-p;↩;⌘-tab` (switch windows to terminal; previous command; enter; switch windows to vim). Of course this muscle memory was broken when I switched to my browser inbetween. I wanted to automate this.
+I have found myself in the situation where I would have Vim running in one window, and a terminal open on the other monitor with my tests. And noticed I was constantly dancing across the keyboard `⌘-tab;⌃-p;↩;⌘-tab` (switch windows to Terminal; previous command; enter; switch windows to Vim). Of course this muscle memory was broken when I switched to my browser in between. I wanted to automate this.
 
 I could use autotest, but our test suite is slow to start up and I wanted to focus on one test.
 
@@ -19,7 +19,7 @@ My solution:
 
 How to do it:
 
-Run your test in vim, the line I would use is something like this (just replace the the command bit with the one you want to run):
+Run your test in Vim, the line I would use is something like this (just replace the command bit with the one you want to run):
 
     map <D-r> :silent execute "!ruby test/unit/post_test.rb &> /tmp/vim.log &" <cr>
 
@@ -29,8 +29,8 @@ And tail the logs:
 
 Now when ever I press `⌘-r` I can keep on tinkering with the code while the tests run on the other monitor.
 
-I don't keep that command in my `.vimrc` file because I am constantly going back and changing the command -- this has become a macro that I change around as I am focusing on diffrent parts of my code.
+I don't keep that command in my `.vimrc` file because I am constantly going back and changing the command -- this has become a macro that I change around as I am focusing on different parts of my code.
 
-Protip: use `q:` to interactivly edit and run past Vim commands.
+Protip: use `q:` to interactively edit and run past Vim commands.
 
 Beauty of this is it works on any command, in any language I am programming in.
