@@ -45,9 +45,9 @@ Apple likes to use the character to represent the modifier keys on Mac, and you 
 </div>
 <div class="reviews span-8">
 <blockquote>
-    ⌘ - Command Key <br>
-    ⇧ - Shift Key <br>
-    ⌃ - Control Key <br>
-    ⌥ - Option Key or Alt Key <br>
+⌘ - Command Key <br>
+⇧ - Shift Key <br>
+⌃ - Control Key <br>
+⌥ - Option Key or Alt Key <br>
 </blockquote>
 </div>
