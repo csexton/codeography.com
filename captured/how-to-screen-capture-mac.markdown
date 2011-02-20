@@ -13,9 +13,12 @@ _Command-Shift-4_
 
 Turns your mouse pointer into a cross hairs that will allow you to click and drag to capture an area of the screen, and save it as a file on the desktop
 
-_Note: After you enter this mode you can press spacebar to turn the mouse pointer into a Camera icon, and then click on a window to capture the exact window._
 
 ![Command Shift 4](images/SC4.png)
+
+_After you enter this mode you can press spacebar to turn the mouse pointer into a Camera icon, and then click on a window to capture the exact window._
+
+![Command Shift 4](images/SC4S.png)
 
 ## ⌘⌃⇧4
 
