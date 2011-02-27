@@ -10,7 +10,7 @@ Create a new fully hosted domain on dreamhost. Something like wiki.domain.com.
  * Check the “Ruby on Rails Passenger (mod_rails)” box.
  * In the Specify your web directory enter “wiki.yourdomain.com/instiki/public”
 
-This will create the wiki.domain.com folder in the user’s home directory. Login to your shell account and do the following:
+This __will create__ the wiki.domain.com folder in the user’s home directory. Login to your shell account and do the following:
 
     cd wiki.yourdomain.com
     svn checkout svn://rubyforge.org/var/svn/instiki/instiki/trunk/ instiki
