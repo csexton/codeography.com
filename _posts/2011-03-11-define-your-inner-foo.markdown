@@ -4,7 +4,7 @@ title: "Define Your Inner Foo"
 published: true
 ---
 
-Recently attended a great talk by [Paul Berry](http://paulbarry.com/) at the [DCRUG](http://www.meetup.com/dcruby/). During his talk, he wondered off into defining a method in a method.
+Recently attended a great talk by [Paul Barry](http://paulbarry.com/) at the [DCRUG](http://www.meetup.com/dcruby/). During his talk, he wondered off into defining a method in a method.
 
 This was really cool.
 
