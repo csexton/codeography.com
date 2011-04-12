@@ -161,6 +161,8 @@ You can find a sampling of design work in my [portfolio](/portfolio/).
 
 I have a technical blog at [codeography.com](http://www.codeography.com/). For those curious (and to save you from having to use google) my personal blog is [fuzzymonk.com](http://www.fuzzymonk.com).
 
+I like the Ruby community, and am involved in confrences and user groups. I have given a talk about Ruby Gems at [RubyNation](http://rubynation.org) and run sessions at [Ruby DCamp](http://rubydcamp.org/). I am also involved at the [DCRUG](http://www.meetup.com/dcruby/).
+
 I have many of my personal projects up on [github](http://github.com/csexton), feel free to browse them.
 
 A couple to get you started:
