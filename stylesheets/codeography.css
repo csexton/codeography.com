@@ -1,6 +1,25 @@
 @import url("http://fonts.googleapis.com/css?family=Inconsolata");
 @import url("http://fonts.googleapis.com/css?family=Cantarell");
 
+/*
+ * Solarized color scheme rules
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+*/
 .purple {color: #5C359B; }
 .green { color: #448E32; }
 .orange { color: #ff6000; }
@@ -13,28 +32,24 @@
 
 body {
   font: 0.95em/1.5 "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
-  color: #999;
-  color: #e6e6e6;
+  color: #657B83;
+  background-color: #073642;
 }
 hr {background:#606060;color:#606060;}
 hr.space {background:none;color:none;}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cantarell', arial, serif;
   font-weight:bolder;
-  color:#222;
+  color:#b58900;
   border: none;
-}
-h1, h2, h3 {
-  color: black;
-  text-shadow: 1px 1px 1px #eee;
 }
 h4 {margin-bottom: 0.3em}
 h5 {margin-bottom: 0.3em}
-pre, code, tt { background-color: #F0F0F0 }
+pre, code, tt { background-color: #EEE8D5 }
 div.border {border-color:#606060;}
 div.colborder {border-color:#606060;}
-a {
-  color: #97031F;
+a, a:focus {
+  color: #cb4b16;
   text-decoration: underline;
   /*border-bottom:1px dotted #333333;*/
 }
@@ -44,11 +59,11 @@ a:visited {
   color: #670100;
 }
 a:active {
-  color: #670100;
+  color: #B58900;
 }
 a:hover {
   text-decoration: underline;
-  color: red;
+  background-color: #EEE8D5;
 }
 a.image_link {
   text-decoration: none;
@@ -58,23 +73,24 @@ a.image_link:hover {
   background: none;
 }
 .byline {
-  color: #606060;
+  color: #839496;
+  color: #93a1a1;
   margin-top: -15px;
   margin-bottom: 15px;
+  font-size: 12px;
 }
 h2.title {
   padding-bottom: 0;
 }
 #header h1{
-  color: #fff;
   padding: 0;
   margin: 15px 0;
   text-align: right;
   font-family: 'Cantarell', arial, serif;
   text-shadow: none;
+  text-shadow: 0px 1px 0px #839496;
 }
 #header h2{
-  color: #999;
   padding: 15px 0;
   margin: 0;
   font-size: 14px;
@@ -85,55 +101,62 @@ h2.title {
 #header h1 a{
   text-decoration: none;
   border-bottom: none;
-  color: #fff;
+  color: #657B83;
+}
+#header h1 a:hover{
+  background-color: #002B36;
 }
 #header {
   padding-top: 15px;
 }
 #header_row {
-  background: #A11B10 url('../images/header.jpg') no-repeat 0 0;
   height: 120px;
   margin-top: -25px;
 }
 #header .nav {
   text-align: right;
-  color: #D99898;
+  color: #839496;
 }
 #header .nav a {
-  color: white;
-  color: #D99898;
+  color: #b58900;
+}
+#header .nav a:hover {
+  background-color: #002b36;
 }
 .header_by_line {
-  color: #606060; 
+  color: #b58900;
   height: 80px;
   padding-top: 20px;
 }
 
 #footer a {
-  color: #B35151;
+  color: #b58900;
+}
+#footer a:hover {
+  background-color: #002b36;
 }
 
 #footer {
-  background: #670000 url('../images/shadow.png') repeat-x 0 0;
-  color: #D99898;
+  background: url('../images/shadow.png') repeat-x 0 0;
+  color: #93a1a1;
 }
 #footer h5, #footer h6 {
-  color: white;
+  color: #839496;
+}
+.footer {
+  border-bottom:thin dotted #EEE8D5;
 }
 .content {
-  background: white url('../images/shadow.png') repeat-x 0 0;
-  color: black;
+  background: #FDF6E3 url('../images/shadow.png') repeat-x 0 0;
+  color: #657B83;
 }
 
-.footer {
-  border-bottom:thin dotted black;
-}
 /* Forms */
 
 input,
 button,
 textarea {
-  border:1px solid #999;
+  border:1px solid #93a1a1;
 }
 button,
 input[type="text"],
@@ -146,14 +169,9 @@ button {
   padding:1px 3px;
   cursor:pointer;
 }
-input[type="button"].final-action,
-button.final-action {
-  background:#633;
-}
 textarea {
   padding:4px 2px;
 }
-
 fieldset {
   border:1px solid #333;
 }
@@ -164,7 +182,6 @@ legend {
 
 label {
   font-size:80%;
-  color: #999;
 }
 
 select {}

@@ -1,15 +1,35 @@
 /* Pretty printing styles. Used with prettify.js. */
 
-.str { color: #600; }
-.kwd { color: #006; font-weight: bold; }
-.com { color: #050; }
-.typ { color: #404; font-weight: bold; }
-.lit { color: #044; }
-.pun { color: #440; }
-.pln { color: #000; }
-.tag { color: #006; font-weight: bold; }
-.atn { color: #404; }
-.atv { color: #060; }
+/* Colors from Solarized
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+*/
+
+
+.str { color: #d33682; }
+.kwd { color: #859900; }
+.com { color: #93a1a1; }
+.typ { color: #268bd2; }
+.lit { color: #2aa198; }
+.pun { color: #586e75; }
+.pln { color: #657B83; }
+.tag { color: #2aa198; }
+.atn { color: #859900; }
+.atv { color: #cb4b16; }
 
 @media print {
   .str { color: #060; }
@@ -24,11 +44,12 @@
   .atv { color: #060; }
 }
 
+pre code { background-color: #EEE8D5}
 pre {
-  background: #F0F0F0 url('../images/shadow.png') repeat-x 0 0;
+  background: #EEE8D5 url('../images/shadow.png') repeat-x 0 0;
   padding: 1em;
   overflow: auto;
-  color: #404040;
+  color: #657B83;
   font-size: 0.9em;
   font-family: 'Inconsolata', Monaco, "Courier New", Courier, monospace;
   -webkit-border-radius: 5px;
