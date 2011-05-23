@@ -20,18 +20,9 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 */
-.purple {color: #5C359B; }
-.green { color: #448E32; }
-.orange { color: #ff6000; }
-.yellow { color: #ffcc00; }
-.dark_grey {color: #606060; }
-.old_green { color: #009900; }
-.old_purple { color: #b960ff; }
-
-.dark_red { color: #670100; }
 
 body {
-  font: 0.95em/1.5 "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
+  font: 15px "helvetica neue light", "helvetica neue", Helvetica, Arial, Sans-serif;
   color: #657B83;
   background-color: #073642;
 }
@@ -89,6 +80,7 @@ h2.title {
   font-family: 'Cantarell', arial, serif;
   text-shadow: none;
   text-shadow: 0px 1px 0px #839496;
+  text-shadow: 0px 1px 0px black;
 }
 #header h2{
   padding: 15px 0;
@@ -102,9 +94,12 @@ h2.title {
   text-decoration: none;
   border-bottom: none;
   color: #657B83;
+  text-shadow: 0px 1px 0px black;
 }
-#header h1 a:hover{
+#header h1 a:hover {
   background-color: #002B36;
+  background-color: #073642;
+  text-shadow: 0px 1px 0px #93a1a1;
 }
 #header {
   padding-top: 15px;
@@ -119,6 +114,7 @@ h2.title {
 }
 #header .nav a {
   color: #b58900;
+  text-shadow: 0px 1px 0px black;
 }
 #header .nav a:hover {
   background-color: #002b36;
@@ -158,6 +154,9 @@ button,
 textarea {
   border:1px solid #93a1a1;
 }
+input[type="image"] {
+  border:none;
+}
 button,
 input[type="text"],
 input[type="password"],
@@ -189,3 +188,12 @@ select option {}
 select optgroup {}
 textarea {}
 
+#sell_box {
+  -moz-box-shadow: 2px 2px 6px #333333;
+  -webkit-box-shadow: 2px 2px 6px #333333;
+  box-shadow:2px 2px 6px #333333;
+padding:10px;
+}
+#sell_box form {
+  text-align: right;
+}
