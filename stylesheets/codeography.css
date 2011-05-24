@@ -192,7 +192,12 @@ textarea {}
   -moz-box-shadow: 2px 2px 6px #333333;
   -webkit-box-shadow: 2px 2px 6px #333333;
   box-shadow:2px 2px 6px #333333;
-padding:10px;
+  padding:10px;
+  background:white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
 }
 #sell_box form {
   text-align: right;
