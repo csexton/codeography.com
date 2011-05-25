@@ -30,22 +30,24 @@
         padding-right: 64px;
         float:right;
       }
+      #fire{
+        text-shadow: 0 0 4px white, 0 -5px 4px #FF3, 2px -10px 6px #FD3, -2px -15px 11px #F80, 2px -25px 18px #F20;
+      }
     </style>
     <script type="text/javascript">
       $(document).ready(function() {
         $('pre').addClass('prettyprint');
         prettyPrint();
 
-        $('#rocket').animate({ left: '588' }, 5000);
+        $('#rocket').animate({ left: '588' }, 5000, function(){
+          $('#first_letter').css("text-shadow", "0 0 4px white, 0 -5px 4px #FF3, 2px -10px 6px #FD3, -2px -15px 11px #F80, 2px -25px 18px #F20" );
+        });
 
         $(document).keydown(function(e){
             if (e.keyCode == 37) {
               $("#rocket").animate({"left": "-=50px"}, "slow");
               return false;
             }
-        });
-
-        $(document).keydown(function(e){
             if (e.keyCode == 38) {
               $("#footer_rocket").animate({"top": "-=5000px"}, 3000);
               return false;
@@ -63,7 +65,7 @@
           <h1>
             <a href="/">
               <img id="rocket" src="/images/rocket-100x52.png" />
-              Codeography
+              <span id="first_letter">C</span>odeography
             </a>
           </h1>
           <div class="nav">
