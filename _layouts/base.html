@@ -25,15 +25,31 @@
         top: 0;
         float:left;
       }
+      #footer_rocket{
+        position: relative;
+        padding-right: 64px;
+        float:right;
+      }
     </style>
     <script type="text/javascript">
       $(document).ready(function() {
         $('pre').addClass('prettyprint');
         prettyPrint();
 
-        $('#rocket').animate({
-          left: '588',
-        }, 5000, function() {
+        $('#rocket').animate({ left: '588' }, 5000);
+
+        $(document).keydown(function(e){
+            if (e.keyCode == 37) {
+              $("#rocket").animate({"left": "-=50px"}, "slow");
+              return false;
+            }
+        });
+
+        $(document).keydown(function(e){
+            if (e.keyCode == 38) {
+              $("#footer_rocket").animate({"top": "-=5000px"}, 3000);
+              return false;
+            }
         });
 
       });
@@ -123,7 +139,7 @@
 
         <div class="span-7 prepend-1 last">
 
-          <img src="/images/rocket-155x368.png" style="float: right; padding-right: 64px;"/>
+          <img id="footer_rocket" src="/images/rocket-155x368.png" />
 
         </div>
       </div>
