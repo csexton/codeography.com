@@ -31,12 +31,12 @@ hr.space {background:none;color:none;}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cantarell', arial, serif;
   font-weight:bolder;
-  color:#b58900;
+  color:#CB4B16;
   border: none;
 }
 h4 {margin-bottom: 0.3em}
 h5 {margin-bottom: 0.3em}
-pre, code, tt { background-color: #EEE8D5 }
+pre, code, tt { background-color: #FDF6E3}
 div.border {border-color:#606060;}
 div.colborder {border-color:#606060;}
 a, a:focus {
@@ -142,7 +142,7 @@ h2.title {
   border-bottom:thin dotted #EEE8D5;
 }
 .content {
-  background: #FDF6E3 url('../images/shadow.png') repeat-x 0 0;
+  background: #fef9ea url('../images/shadow.png') repeat-x 0 0;
   color: #657B83;
 }
 
