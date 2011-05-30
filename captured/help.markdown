@@ -4,7 +4,7 @@ title: Captured - How to take a Screen Capture on Mac OS X
 ---
 ## Captured Frequently Asked Questions
 
-CAptured aims to be as intuative as possible, however some of the more advance funcitonality can be a little confusing. Below you'll find a few tips for getting things working best for you.
+Captured aims to be as intuative as possible, however some of the more advance funcitonality can be a little confusing. Below you'll find a few tips for getting things working best for you.
 
 ## SFTP Configuration
 
@@ -21,7 +21,7 @@ Because FTP is inherently insecure, Captured only allows for SFTP uploads. Lucki
 
 By default OS X will take a screen shot when you press the keyboard shortcut ⌘⇧4, and normally captured will upload those screen shots. However, Captured also introduces a ⌘⇧5 option that will skip the desktop and just upload the image directly.
 
-Captured can be donfigured to only respond to the 
+Captured can be configured to only respond to the
 
 
 
