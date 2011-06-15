@@ -6,7 +6,7 @@ published: true
 
 <img align="right" src="/images/dynamic-layout-sm.png" alt="iPhone and iPad">
 
-Recently we have been trying to optimize our site for different devices and ran in to some issues. Particularly if we wanted to have a site that would work well on an iPhone it was comically large on the iPad. And the awesome iPad version was teeny-tiny on the phone. With more digging into the viewport meta tags there was no good way to select a tablet layout vs. a phone layout -- you just have the one viewport and that's it. The only decent way to determine which device you have is to set the viewport's width to be `device-width`:
+Recently [Cary](http://cary.blog.greenfrylabs.com/) and I have been trying to optimize our site for different devices and ran in to some issues. Particularly if we wanted to have a site that would work well on an iPhone it was comically large on the iPad. And the awesome iPad version was teeny-tiny on the phone. With more digging into the viewport meta tags there was no good way to select a tablet layout vs. a phone layout -- you just have the one viewport and that's it. The only decent way to determine which device you have is to set the viewport's width to be `device-width`:
 
     <meta name="viewport" content="width=device-width" />
 
