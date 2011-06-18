@@ -54,7 +54,6 @@ a:active {
 }
 a:hover {
   text-decoration: underline;
-  background-color: #EEE8D5;
 }
 a.image_link {
   text-decoration: none;

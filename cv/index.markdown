@@ -27,7 +27,7 @@ I was one of 3 developer leads and played a key role in exiting the company for 
 
 ##### Norton Online Backup
 
-<div style="float: right" class="noprint"><img src="images/nobu.png"></div>
+<div style="float: right" class="noprint"><img src="/cv/images/nobu.png"></div>
 
 Created a new Norton-branded product in 9 months. This consisted of a small agent that would run on the client computers and talk via a REST API to the Ruby on Rails application. My primary role was in developing the Rails application, but I also developed other supporting components from the database schema to the Event Machine based polling servers. I also designed the physical infrastructure and trained a Windows centric datacenter staff to support Linux applications.
 
@@ -39,7 +39,7 @@ Post v2 we added mobile devices, when we released iPhone, Android apps and focus
 ##### Dell DataSafe Online
 
 <!--div style="float: right"><img src="http://i.dell.com/images/global/services/screenshot.jpg"></div-->
-<div style="float: right" class="noprint"><img src="images/dso.png"></div>
+<div style="float: right" class="noprint"><img src="/cv/images/dso.png"></div>
 
 I started this project from scratch and worked closely with Dell's design team to build a fully branded and integrated application. I managed the entire technical side of this product, and coded the desktop client. This client went through two iterations: v1.0 MFC/C++ with a custom built integrated web server for the local html front end; and v1.1, which was written in C#.NET. In v2.0 this product was migrated to a white label version of Norton Online Backup.
 
