@@ -200,3 +200,30 @@ textarea {}
 #sell_box form {
   text-align: right;
 }
+
+body ::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+body ::-webkit-scrollbar-button:start:decrement,
+body ::-webkit-scrollbar-button:end:increment  {
+  height: 0px;
+  width: 0px;
+  display: block;
+}
+
+/* body ::-webkit-scrollbar-track-piece { */
+/* background-color: #93a1a1; */
+/* -webkit-border-radius: 6px; */
+/* } */
+
+body ::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #FEF9EA;
+  border: 4px solid #EEE8D5;
+  -webkit-border-radius: 8px;
+}
+
+
+
