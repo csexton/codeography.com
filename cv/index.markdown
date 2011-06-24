@@ -10,13 +10,43 @@ I am a software engineer that has done a fair bit of graphic design, project man
 
 I love to pair program but am comfortable taking on a project solo. I have experience working with and leading geographically distributed teams. I want to understand the business side of things, make real decisions, and I want to work on a project that I can believe in. 
 
+
 ## Experience
+
+### Codeography
+
+##### Captured for Mac
+
+<div style="float: right" class="noprint"><img src="/cv/images/captured.png"></div>
+
+Quick Screenshot Sharing for Mac. Take a screenshot and [Captured](/captured) will automatically upload it to the image hosting service of your choice, then copy the link to your clipboard. Supports Imgur, Dropbox, SFTP and Amazon S3.
+
+Keeps track of screen shot history, and can shorten image urls with Bit.ly.
+
+<div style="clear:both">&nbsp;</div>
+
+##### Task Me
+
+<div style="float: right" class="noprint"><img src="/cv/images/taskme.png"></div>
+
+[Task Me](/taskme) streamlines the process of sending yourself a reminder email from your iPhone.  Task Me removes any repetitive steps for sending yourself simple email notes, with a simple interface and easy setup.
+
+Both Gmail and MobileMe have easy setup built right in, but Task Me can also be configured manually to be used with most SMTP servers.
+
+### Ziplist
+  <div class='byline'>
+  Senior Principal Engineer
+  <br/>
+  2010-Present
+  </div>
+
+I worked primarirly on the ZipList's web app, which was implemented in Ruby on Rails. Occationally consulting on the mobile applications. Contributed on everything from backend infrastructure to the re-brandable front end.
 
 ### Symantec, Swapdrive Division
   <div class='byline'>
   Senior Development Manager/Principal Engineer
   <br/>
-  2005-Present
+  2005-2010
   </div>
 
 This began as a tiny start up company, Swapdrive. When I first started there was only one other programmer in the office. Being a rag-tag small company, we had to make it work ourselves or we would fail. This was my real foray into the business of software, and learn how to interact with massive corporations and small partners. I got to take on responsibility that I would have never considered, including interviewing and building teams, driving process decisions, and actually shipping products under insane schedules.
