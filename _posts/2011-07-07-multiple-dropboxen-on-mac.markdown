@@ -25,6 +25,8 @@ First, create a file in `~/Library/LaunchAgents/com.dropbox.alt.plist` with the 
         <array>
           <string>/Applications/Dropbox.app/Contents/MacOS/Dropbox</string>
         </array>
+        <key>RunAtLoad</key>
+        <true/>
       </dict>
     </plist>
 
