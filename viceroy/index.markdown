@@ -15,9 +15,14 @@ Included are a set of plugin bundles that really unleash the power of Vim. They 
 
     :BundleInstall
 
-Local customization is easy. If you want to change your color scheme, or override any of the settings in Viceroy, edit the .vimrc.local file. This is also the place to specify any additional plugin bundles that you want to install.
+Local customization is easy. If you want to change your color scheme, or override any of the settings in Viceroy, edit your `.vimrc.local` file. This is also the place to specify any additional plugin bundles that you want to install.
 
-    " Customizations go in ~/.vimrc.local
+You can edit it by running this command:
+
+    $ vim ~/.vimrc.local
+
+Here an example `.vimrc.local`:
+
     set nofoldenable
     set guifont=Monaco:h14
     Bundle 'snipMate'
