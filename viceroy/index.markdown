@@ -11,7 +11,7 @@ Viceroy is not intended to be a crutch that experienced vim users would get anno
 
 To install simply run this command (if you trust me, otherwise clone the [git repo](http://github.com/csexton/viceroy)):
 
-    $ curl https://raw.github.com/csexton/viceroy/master/bootstrap.sh -o - | sh
+    $ curl -L https://raw.github.com/csexton/viceroy/master/bootstrap.sh -o - | sh
 
 Included are a set of plugin bundles that really unleash the power of Vim. They are not installed by default, but can easily be downloaded and installed by running this command in vim:
 
