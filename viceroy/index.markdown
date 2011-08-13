@@ -38,14 +38,16 @@ Here an example `.vim-bundles`:
     csexton/jekyll.vim
     tpope/vim-fugitive
 
-    # vim-scripts repos
+    # Vim Scripts repos
+    # See https://github.com/vim-scripts for a list of the mirrored projects
     L9
     rails.vim
 
-    # other git repos
+    # Arbitrary git repos
     git://git.wincent.com/command-t.git
 
-    # If you don't want to use of the the default plugins, you can skip it by prefixing the line with a `~`
+    # If you don't want to use of the the default plugins, you
+    # can skip it by prefixing the line with a `~`
     ~jslint.vim
     ~gist-vim
 
