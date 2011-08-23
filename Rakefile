@@ -1,6 +1,5 @@
 require "rubygems"
 require "rake"
-require "active_support"
 
 desc "Deploy to codeography.com"
 task :deploy do
@@ -15,7 +14,7 @@ task :post do
     puts "USAGE: rake post TITLE='the post title'"
     exit(1)
   end
-  post_title = "#{Date.today.to_s(:db)}-#{title.downcase.gsub(/[^\w]+/, '-')}"
+  post_title = "#{Time.now.strftime("%Y-%m-%d")}-#{title.downcase.gsub(/[^\w]+/, '-')}"
   post_file = File.dirname(__FILE__) + "/_posts/#{post_title}.#{ext}"
   File.open(post_file, "w") do |f|
     f << <<-EOS.gsub(/^    /, '')
