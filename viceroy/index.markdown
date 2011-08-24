@@ -2,7 +2,6 @@
 layout: viceroy
 title: Viceroy - Vim Configuration Management
 ---
-# Viceroy - Vim Configuration Framework
 
 Viceroy is a configuration of the [Vim text editor](http://www.vim.org/). It is a set of Vim scripts that help programmers get the most out of Vim with common options that advanced vim users would set.
 
