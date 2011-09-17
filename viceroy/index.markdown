@@ -23,7 +23,7 @@ You can edit it by running this command:
 
     $ vim ~/.vimrc.local
 
-Here an example `.vimrc.local`:
+Here is an example `.vimrc.local`:
 
     set nofoldenable
     set guifont=Monaco:h14
@@ -31,7 +31,7 @@ Here an example `.vimrc.local`:
 
 Since Viceroy uses pathogen under the covers, adding additional plugins is easy. Just clone the repo into `~/.vim/bundle`.
 
-Here an example `.vim-bundles`:
+Here is an example `.vim-bundles`:
 
     # Repos on github
     csexton/jekyll.vim
