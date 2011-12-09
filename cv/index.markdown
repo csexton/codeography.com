@@ -8,12 +8,15 @@ title: Christopher Sexton
 
 I am a software engineer that has done a fair bit of graphic design, project management and system administration. I love to build stuff, learn quickly, want to do it right, and I care about the details. I enjoy wearing lots of hats and doing many different things, from subtle UI tweaks to scaling systems to handle millions of users.
 
-I love to pair program but am comfortable taking on a project solo. I have experience working with and leading geographically distributed teams. I want to understand the business side of things, make real decisions, and I want to work on a project that I can believe in. 
+I love to pair program but am comfortable taking on a project solo. I have experience working with and leading geographically distributed teams. I want to understand the business side of things, make real decisions, and I want to work on a project that I can believe in.
 
 
 ## Experience
 
 ### Codeography
+  <div class='byline'>
+  Owner
+  </div>
 
 ##### Captured for Mac
 
@@ -95,11 +98,11 @@ Engineer III
  * DARPA team technical lead
  * Implemented a fully integrated knowledge base, source repository and ticket manager for internal project management
  * Responsible for the configuration and security of servers, including both Windows and Sun Solaris servers
- * Developed ASP/Sybase tools for tracking invoices, including customized reports and C++ batch jobs to import data from other systems 
+ * Developed ASP/Sybase tools for tracking invoices, including customized reports and C++ batch jobs to import data from other systems
  * Developed interface software between DARPA and external financial systems such as the Washington Area Accounting System (WAAS)
  * Debugged and maintained existing financial systems written in a number of languages on multiple platforms, such as Java, C++, ASP, Windows and Solaris
 
-### DCS Corporation 
+### DCS Corporation
 
 <div class='byline'>
 Engineer II
@@ -137,7 +140,7 @@ Programmer Intern
 </div>
 
  * Contributed to the versaDOS-Pascal to Unix-C conversion projects
- * Verified and Validated Circuit City Point of Sale system 
+ * Verified and Validated Circuit City Point of Sale system
  -->
 
 ### Virginia Tech VC-Perts
@@ -191,19 +194,20 @@ You can find a sampling of design work in my [portfolio](/portfolio/).
 
 I have a technical blog at [codeography.com](http://www.codeography.com/). For those curious (and to save you from having to use google) my personal blog is [fuzzymonk.com](http://www.fuzzymonk.com).
 
-I like the Ruby community, and am involved in confrences and user groups. I have given a talk about Ruby Gems at [RubyNation](http://rubynation.org) and run sessions at [Ruby DCamp](http://rubydcamp.org/). I am also involved at the [DCRUG](http://www.meetup.com/dcruby/).
+I like the Ruby community, and am involved in confrences and user groups. I co-founded [Arlington Ruby](http://www.arlingtonruby.org), have given a talk about Ruby Gems at [RubyNation](http://rubynation.org) and run sessions at [Ruby DCamp](http://rubydcamp.org/). I am also involved at the [DCRUG](http://www.meetup.com/dcruby/).
 
 I have many of my personal projects up on [github](http://github.com/csexton), feel free to browse them.
 
 A couple to get you started:
 
  * [Captured](http://github.com/csexton) - Quick screen capture sharing for OS X.
+ * [Viceroy](http://github.com/csexton/viceroy) - Vim configuration framework.
  * [ohai plugin howto](http://www.codeography.com/2009/10/21/creating-custom-ohai-plugins.html) - Tutorial I wrote on creating ohai plugins.
  * [Dotfiles](http://github.com/csexton/dotfiles) - You can tell alot about a coder by what they put in their `.dotfiles`.
 
 ### Background
 
-In addition to my obsession with computers I also have other interests. 
+In addition to my obsession with computers I also have other interests.
 
 I study and teach a Chinese martial art, Wushu. In fact I made the [US National Team in 2005](http://www.usawkf.com/news/detail.php?aid=334), and was able to represent my country at the Wushu World Championships and Pan American Wushu Games.
 
