@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h4 {margin-bottom: 0.3em}
 h5 {margin-bottom: 0.3em}
+p {line-height:160%;}
 pre, code, tt { background-color: #FDF6E3}
 div.border {border-color:#606060;}
 div.colborder {border-color:#606060;}
