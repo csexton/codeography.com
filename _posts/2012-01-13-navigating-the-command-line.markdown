@@ -110,5 +110,5 @@ The only thing you should do is pick some tools and learn them. Don't worry abou
 
 ## What do you use?
 
-What command line trick make your day happier?
+What command line tricks do you use to make your day happier?
 
