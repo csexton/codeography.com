@@ -105,6 +105,10 @@ My reasons:
 1. On the command line I can quickly edit the command in vim by mashing `Control-X Control-E` or running `fc`.
 1. And probably the most critical reason is I have the [exact same keybindings](https://github.com/csexton/viceroy/blob/master/plugin/mappings.vim#L14) in Vim's insert and command modes.
 
+## Ignore Advice from Blog Articles
 The only thing you should do is pick some tools and learn them. Don't worry about what some random blog article says. Don't worry about those kids on irc demanding you use zsh. Don't worry about editors -- learn something. It will all translate in some way, won't be wasted effort. Most important thing you can do as a developer is train how to use your tools.
 
+## What do you use?
+
+What command line trick make your day happier?
 
