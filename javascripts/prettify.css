@@ -46,11 +46,12 @@ $green:     #859900;
 
 pre code { background-color: #EEE8D5}
 pre {
-  background: #EEE8D5 url('../images/shadow.png') repeat-x 0 0;
+  /* background: #EEE8D5 url('../images/shadow.png') repeat-x 0 0; */
+  background-color: #EEE8D5;
   padding: 1em;
   overflow: auto;
   color: #657B83;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-family: 'Inconsolata', Monaco, "Courier New", Courier, monospace;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
