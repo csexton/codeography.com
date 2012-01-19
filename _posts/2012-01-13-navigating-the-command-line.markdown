@@ -89,7 +89,7 @@ I think these are the most critical shortcuts to learn, and have made life on th
 
 Really I should end this post here, but am somehow compelled to mention this thing called input modes.
 
-There are twon input modes that a command line will use: vi or emacs.
+There are two input modes that a command line will use: vi or emacs.
 
 The examples above assume you are using emacs mode for your shell. This is the default for bash and most other shells. If you are having problems with them you may need to set the input mode. In bash you can simply run `set -o emacs`
 
