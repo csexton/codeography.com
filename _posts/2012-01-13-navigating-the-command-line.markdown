@@ -73,7 +73,7 @@ Want some more? Rad. But a little caution if you are just learning these things:
     <td><img src="/images/c-u.png" align="left" class="key-image" /></td>
     <td>
       <h2>Delete to the Beginning</h2>
-      Pressing <code>control-u</code> will delete from the cursor to the end of the line
+      Pressing <code>control-u</code> will delete from the cursor to the beginning of the line
       <br>
       Mnemonic: Control-<em>Uhh</em> that wasn't right
     </td>
