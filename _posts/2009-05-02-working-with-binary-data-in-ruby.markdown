@@ -48,8 +48,8 @@ The only hard part in the process was figuring out what datatypes to use for the
 
  * WORD -> uint16le 
  * DWORD -> uint32le 
- * char[n] -> string (with length 'n')
- * BYTE[n] -> Binary data (with length 'n')
+ * char&#91;n&#92; -> string (with length 'n')
+ * BYTE&#91;n&#92; -> Binary data (with length 'n')
  * INT -> int32le 
 
 As I was working my way thought the string I found it helpful to test the parsing one element at a time and make sure that is working.  I would comment out all the elements but the first and try 

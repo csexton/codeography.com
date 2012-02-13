@@ -1,3 +1,7 @@
 ---
 lsi: false
 pygments: true
+exclude:
+- Rakefile
+- README.markdown
+- public
