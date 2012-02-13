@@ -106,3 +106,33 @@ I figured checking for changes once an hour would be plenty:
 
     30 * * * * /usr/bin/ruby /home/git/svn/mirror.rb ampere >>/home/git/log/mirror-ampere.log 2>&1
 
+# Update: The missing mirror.rb file
+
+Not sure how I forgot this, nor do I have an excuse why it took me so long to add it here.
+
+`mirror.rb`
+    #!/usr/bin/env ruby
+    require 'date'
+    require "time"
+
+    def usage
+      puts "mirrortosvn <repo-name>"
+    end
+
+    def git(cmd)
+      system("/usr/bin/git #{cmd}")
+    end
+
+    def start_sync_log(name)
+      str = "#{DateTime.now.to_s} Sync #{name}\n"
+      str += "=" * (str.length-1)
+    end
+
+    name = ARGV[0]
+    usage if name == nil
+
+    puts
+    puts start_sync_log name
+    Dir.chdir "/home/git/svn/#{name}"
+    git "pull origin master"
+    git "svn dcommit"
