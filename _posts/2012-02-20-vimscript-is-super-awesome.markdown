@@ -27,4 +27,4 @@ Or get make a funciton that I can call from other vim script:
 
 It just keeps building on the same commands. And really, what could go wrong?
 
-If you want to learn more, I hightly recomend Steve Losh's [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/). I also have a more robust version of the [trim command](https://github.com/csexton/trailertrash.vim)..
+If you want to learn more, I hightly recomend Steve Losh's [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/). I also have a more robust version of the [trim command](https://github.com/csexton/trailertrash.vim).
