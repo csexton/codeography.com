@@ -7,7 +7,7 @@ Thanks in large part do other folks (well, mostly [Nathan](http://atnan.com/blog
 
 Here is my version of the script that takes things a bit further:
 
-    d=$(ps x | egrep "MobileSafari|Web.app" | grep -v grep | awk '{ print $1 }')
+    pid=$(ps x | egrep "MobileSafari|Web.app" | grep -v grep | awk '{ print $1 }')
 
     if [ "$pid" == "" ]; then
       echo "Safari.app must be running in the Simulator to enable the remote inspector."
