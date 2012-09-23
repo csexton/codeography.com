@@ -114,7 +114,7 @@ It's pretty big, so you may want to curl it down
 
     curl https://raw.github.com/gist/3772971/efbe88004be70cb7f157e30aa1183ea5867d8de6 > /etc/init.d/znc
 
-Copy over the znc config files etc, and update permissions
+Copy over the ZNC config files to `/etc`, and update permissions
 
     sudo mkdir /etc/znc
     sudo mv /home/$USER/.znc/* /etc/znc/
@@ -144,14 +144,14 @@ Restart rinetd
 
     sudo /etc/init.d/rinetd restart
 
-If you enabled the webadmin module in znc you should now be able to point your browser to `https://yourhostname` and edit your znc config (and let folks edit their accounts, configure modules and change passwords). Yes, znc uses the same port for IRC connections and for the admin page.
+If you enabled the webadmin module in ZNC you should now be able to point your browser to `https://yourhostname` and edit your ZNC config (and let folks edit their accounts, configure modules and change passwords). Yes, ZNC uses the same port for IRC connections and for the admin page.
 
 ### Recap
 
 Now you should have an irc server running on port 6667, a bouncer running on port 6664, and a tunnel for the bouncer from port 443.
 
-I just used the web admin module to setup accounts for everyone on my team. I wound up turning off external access to 6667 so that I didn't have to secure ircd, and everyone just goes through znc.
+I just used the web admin module to setup accounts for everyone on my team. I wound up turning off external access to 6667 so that I didn't have to secure ircd, and everyone just goes through ZNC.
 
-You might want to setup an bot to do your bidding, I use [radbot](http://github.com/csexton/radbot)
+You might want to setup an bot to do your bidding, I use [radbot](http://github.com/csexton/radbot). You should fork :-)
 
 I run this on a micro instance on Amazon's EC2, so it costs us about $14/month -- but given that I use the server for other things as well it doesn't _really_ cost the full $14.
