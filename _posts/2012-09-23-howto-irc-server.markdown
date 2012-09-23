@@ -142,7 +142,7 @@ Edit that file to include a new forwarding rule
 
 Restart rinetd
 
-   sudo /etc/init.d/rinetd restart
+    sudo /etc/init.d/rinetd restart
 
 If you enabled the webadmin module in znc you should now be able to point your browser to `https://yourhostname` and edit your znc config (and let folks edit their accounts, configure modules and change passwords). Yes, znc uses the same port for IRC connections and for the admin page.
 
