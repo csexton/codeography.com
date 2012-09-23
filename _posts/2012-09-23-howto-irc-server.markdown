@@ -97,7 +97,7 @@ To verify that this works with your local client you should just have to change 
 
 ### Make ZNC a system daemon
 
-At the end of the config keep it running and connect to it from your local IRC client to make sure things are working. Once you have proven it works time to set it up as a daemon that starts at boot.
+At the end of the config keep it running and connect to it from your local IRC client to make sure things are working. Once you have proven it works time to set it up as a daemon that starts at boot. I used Henner's [guide](http://doomclaw.de/index.php/2009/08/18/run-znc-at-boot-with-an-init-script/) when I first set this up.
 
     killall znc # just to make sure
 
