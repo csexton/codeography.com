@@ -16,8 +16,6 @@ The ultimate server consists of a few components:
 * a way to tunnel port 443 to the bouncer
 * and maybe a bot that can post funny pictures of cats for you
 
-### Spin up a new server (or use one you already have)
-
 I am using Ubuntu Server 12.04.1 LTS (ami-137bcf7a) running on a micro instance.
 
 ### Install the IRC Server
@@ -28,10 +26,14 @@ I am using Ubuntu Server 12.04.1 LTS (ami-137bcf7a) running on a micro instance.
 Create the password required to be the Oper:
 
 _WARNING: Please do not mix up the `mkpasswd` program from `/usr/sbin` with this one. If you are root, typing `mkpasswd` will run that one instead and you will receive a strange error._
+
     /usr/bin/mkpasswd super-secret
 
-Edit the config file, this is well documented and there are plenty of little tweaks you can make but the only thing you need to do is comment out the `host` parameter in the `listen` section (about line 130 in the default ubuntu config)
+Edit the config file, this is well documented and there are plenty of little tweaks you can make but make a couple little changes now:
+
     sudo vim /etc/ircd-hybrid/ircd.conf
+
+Comment out the `host` parameter in the `listen` section (about line 130 in the default ubuntu config)
 
     host = “127.0.0.1″;
 
@@ -39,8 +41,15 @@ to
 
     #host = “127.0.0.1″;
 
+And increase the `max_clients` in the `serverinfo` section:
 
-This will open the server up to external connections (Note: if you are using EC2 you will also need to open up the ports to allow these connections)
+    max_clients = 2;
+
+to
+
+    max_clients = 512;
+
+This will open the server up to external connections (Note: make sure you configure your instance to have these ports open, e.g. in EC2 you will need to edit the security profile and open ports 443, 6664, and 6667), and allow more than 2 folks to connect from the same IP (which is important since we will have everyone connect via ZNC running on this machine).
 
 Now restart the server
 
@@ -129,7 +138,7 @@ This step is not required if your network does not block the ports we are using.
 
 Edit that file to include a new forwarding rule
 
-   0.0.0.0 443 127.0.0.1 6664
+    0.0.0.0 443 127.0.0.1 6664
 
 Restart rinetd
 
