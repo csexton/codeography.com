@@ -37,7 +37,7 @@ Comment out the `host` parameter in the `listen` section (about line 130 in the 
 
     host = “127.0.0.1″;
 
-to
+to be
 
     #host = “127.0.0.1″;
 
@@ -45,7 +45,7 @@ And increase the `max_clients` in the `serverinfo` section:
 
     max_clients = 2;
 
-to
+to be
 
     max_clients = 512;
 
