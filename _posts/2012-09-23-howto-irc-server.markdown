@@ -16,19 +16,17 @@ The ultimate server consists of a few components:
 * a way to tunnel port 443 to the bouncer
 * and maybe a bot that can post funny pictures of cats for you
 
-## Cost
-I run this on a micro instance on Amazon's EC2, so it costs us about $14/month -- but given that I use the server for other things as well it doesn't really cost the full $14.
-
-## Spin up a new server (or use one you already have)
+### Spin up a new server (or use one you already have)
 
 I am using Ubuntu Server 12.04.1 LTS (ami-137bcf7a) running on a micro instance.
 
-## Install the IRC Server
+### Install the IRC Server
 
     sudo apt-get install ircd-hybrid
     sudo vim /etc/ircd-hybrid/ircd.motd
 
 Create the password required to be the Oper:
+
 _WARNING: Please do not mix up the `mkpasswd` program from `/usr/sbin` with this one. If you are root, typing `mkpasswd` will run that one instead and you will receive a strange error._
     /usr/bin/mkpasswd super-secret
 
@@ -50,7 +48,7 @@ Now restart the server
 
 Now you should be able to fire up your favorite client and see if you can get it to connect to the server. Once you have proven it works, time to move onto the bouncer.
 
-## Install the IRC Bouncer
+### Install the IRC Bouncer
 
 Originally I followed the guide from [Dustin Davis](http://www.nerdydork.com/setting-up-a-znc-irc-bouncer.html) but have a few tweaks:
 
@@ -65,13 +63,12 @@ Follow the guides to setup the server. I mostly choose the defaults, and enabled
     Listen Host (Blank for all ips):
     Number of lines to buffer per channel [50]: 1000
     Would you like to keep buffers after replay? (yes/no) [no]: yes
-    Default channel modes [+stn]:
 
 Configure ZNC to use the brand new IRC server that we just installed:
 
     IRC server (host only): 127.0.0.1
-    [irc.example.com] Port (1 to 65535) [6667]: 6667
-    [irc.example.com] Password (probably empty):
+    [127.0.0.1] Port (1 to 65535) [6667]: 6667
+    [127.0.0.1] Password (probably empty):
     Does this server use SSL? (yes/no) [no]:
     Would you like to add another server for this IRC network? (yes/no) [no]: no
     Would you like to add a channel for ZNC to automatically join? (yes/no) [yes]: yes
@@ -86,6 +83,8 @@ Now you can run ZNC as that user and verify it works, and make tweaks to the con
 or with the webadmin module by pointing a browser to
 
     https://yourhostname:6664
+
+To verify that this works with your local client you should just have to change the port from 6667 to 6664. If you want to compare settings my initial config file looked something like [this](https://gist.github.com/3773180).
 
 ### Make ZNC a system daemon
 
@@ -119,14 +118,16 @@ Start 'er up
 
     sudo /etc/init.d/znc start
 
-## Setup port forwarding from 443 to 6664 to work around firewalls
+### Setup port forwarding
+
+Forward from 443 to 6664 to work around firewalls.
 
 This step is not required if your network does not block the ports we are using. But it is still nice to use in case you ever find yourself on one. Also you would not want to do this on a server that is serving webpages over https.
 
     sudo apt-get install rinetd
     sudo vim /etc/rinetd.conf
 
-Exit that file to include a new forwarding rule
+Edit that file to include a new forwarding rule
 
    0.0.0.0 443 127.0.0.1 6664
 
@@ -134,12 +135,14 @@ Restart rinetd
 
    sudo /etc/init.d/rinetd restart
 
-If you enabled the webadmin module in znc you should now be able to point your browser to `https://servername` and edit your znc config (and let folks edit their accounts, configure modules and change passwords). Yes, znc uses the same port for IRC connections and for the admin page.
+If you enabled the webadmin module in znc you should now be able to point your browser to `https://yourhostname` and edit your znc config (and let folks edit their accounts, configure modules and change passwords). Yes, znc uses the same port for IRC connections and for the admin page.
 
-## Recap
+### Recap
 
 Now you should have an irc server running on port 6667, a bouncer running on port 6664, and a tunnel for the bouncer from port 443.
 
 I just used the web admin module to setup accounts for everyone on my team. I wound up turning off external access to 6667 so that I didn't have to secure ircd, and everyone just goes through znc.
 
 You might want to setup an bot to do your bidding, I use [radbot](http://github.com/csexton/radbot)
+
+I run this on a micro instance on Amazon's EC2, so it costs us about $14/month -- but given that I use the server for other things as well it doesn't _really_ cost the full $14.
