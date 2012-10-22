@@ -52,11 +52,11 @@ Load the plugin, and have it find the matching tags in your document ready block
 
 Then you just wrap dates in a span with class of 'localtime':
 
-    <span class="localtime">2012-10-10 06:42:47 UTC</span>
+    <span class="localtime">2012-10-10T06:42:47Z</span>
 
 And the dates get converted to this:
 
-    <span class="localtime" title="2012-10-10T06:42:47+0000">2:42 AM 10/10/2012</span>
+    <span class="localtime" title="2012-10-10T06:42:47Z">2:42 AM 10/10/2012</span>
 
 Which looks nice and readable to me:
 
@@ -64,12 +64,14 @@ Which looks nice and readable to me:
 
 Adding a little sugar - View helper
 
-I wanted to keep my markup nice an neat so I made a `localtime_tag` helper to clean things up a little. Here is how I implemented it in ruby:
+I wanted to keep my markup nice an neat so I made a `localtime_tag` helper to clean things up a little. Since ECMA Script can parse ISO 8601 Date strings, I used ruby's handy Time#iso8601 method. Here is how I implemented it:
 
     def localtime_tag(time)
-      time = Time.parse(time) unless time.respond_to? :strftime
-      formatted_str = time.strftime('%Y-%m-%dT%H:%M:%S%z')
+      time = Time.parse(time) unless time.respond_to? :utc
+      formatted_str = time.utc.iso8601
       content_tag :span, formatted_str, class: 'localtime'
     end
+
+If you are not using rails you may need to `require "time"` to get the iso8601 method.
 
 It will take the date and format it into a timestamp that will include timezone so that the JS `Date` parser will be able to convert it to the local time.
