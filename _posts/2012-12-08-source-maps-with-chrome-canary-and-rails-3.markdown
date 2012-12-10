@@ -1,17 +1,15 @@
 ---
 layout: post
-title: Source Maps with Chrome and Rails
+title: Source Maps with Chrome Canary and Rails
 ---
 
-Update: Apperently this works fine in Chrome as well as Chorme Canary. Thanks Gábor.
-
-I was having problem piecing together all the steps to enabling source maps in <span style="text-decoration: line-through">Canary</span> Chrome. I really wanted to get it working with the rails-sass gem that comes with Rails 3, and the Asset Pipeline.
+I was having problem piecing together all the steps to enabling source maps in Chrome Canary. I really wanted to get it working with the rails-sass gem that comes with Rails 3, and the Asset Pipeline.
 
 Eventually I got things working, this is what I did:
 
 ## Step 1:
 
-In Chrome  navigate to `chrome://flags/`
+In [Chrome Canary](https://tools.google.com/dlpage/chromesxs) navigate to `chrome://flags/`
 
 ## Step 2:
 
