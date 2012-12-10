@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Source Maps with Chrome Canary and Rails
+title: Source Maps with Chrome and Rails
 ---
 
 Update: Apperently this works fine in Chrome as well as Chorme Canary. Thanks Gábor.
