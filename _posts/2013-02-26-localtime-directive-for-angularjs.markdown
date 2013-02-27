@@ -5,9 +5,11 @@ title: localtime directive for angularjs
 
 <style>
 localtime {
+background-color: #efefef;
 border: thin solid black;
 margin: 1em;
 padding: 1em;
+border-radius: 4px;
 }
 </style>
 
@@ -47,10 +49,10 @@ Now, in my markup I simply wrap the timestamps I care about in `<localtime>` tag
 
 The end result is string going from this:
 
-<localtime>2013-02-26T17:53:00+00:00</localtime>
+<p><localtime>2013-02-26T17:53:00+00:00</localtime></p>
 
 To this:
 
-<localtime title="2013-02-26T17:53:00+00:00">12:53 PM 2/26/2013</localtime>
+<p><localtime title="2013-02-26T17:53:00+00:00">12:53 PM 2/26/2013</localtime></p>
 
 
