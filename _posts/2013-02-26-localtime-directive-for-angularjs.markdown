@@ -3,6 +3,14 @@ layout: post
 title: localtime directive for angularjs
 ---
 
+<style>
+localtime {
+border: thin solid black;
+margin: 1em;
+padding: 1em;
+}
+</style>
+
 A little while back I wrote about a [jQuery plugin](http://www.codeography.com/2012/10/11/convert-timestamps-localtime-jquery.html) I had that would convert UTC time stamps to the local timezone of the browser. Since then I have been experimenting a bit with [AngularJS](http://angularjs.org/) and wanted the same thing but in an angly way. Here is my attempt at porting that code over.
 
 First I made a module that declared a directive:
