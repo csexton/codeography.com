@@ -47,7 +47,7 @@ Then in my angular app, I just include the module:
 
 Now, in my markup I simply wrap the timestamps I care about in `<localtime>` tags and they get switched over to a nicely formatted string in the user's local time zone.
 
-The end result is string going from this:
+The end result is a timestamp string going from this:
 
 <p><localtime>2013-02-26T17:53:00+00:00</localtime></p>
 
