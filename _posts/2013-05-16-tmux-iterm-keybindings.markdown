@@ -3,7 +3,7 @@ layout: post
 title: Fancy tmux keybindings with iTerm
 ---
 
-I wanted to bind `⌘-{` and `⌘-}` to switch windows in tmux (window:tmux is tab:everything else). Turns out tmux won't let you [bind to ⌘](http://superuser.com/a/259622/70029). I was able to solve this with a little hack in iTerm.
+I wanted to bind `⌘-{` and `⌘-}` to switch windows in tmux (window is to tmux _as_ tab is to everything else). Turns out tmux won't let you [bind to ⌘](http://superuser.com/a/259622/70029). I was able to solve this with a little hack in iTerm.
 
 In iTerm preferences, click Profiles in the toolbar, then the Keys tab. You'll see a lieelte `+` button there:
 
