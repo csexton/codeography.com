@@ -17,33 +17,29 @@ Here is the real trick, choose "Send Hex Code" as the action.
 
 Then in the field you want to enter the [ascii code](http://www.columbia.edu/kermit/ascii.html) for what you want to send to tmux. In my case I used:
 
-<table style="width:300px">
+<table style="background-color: #efefef;">
+<thead>
 <tr>
-<th>Key Binding<th>
-<th>Hex Code<th>
-<th>Keys Sent<th>
+  <th>Key Binding</th>
+  <th>Hex Code</th>
+  <th>Keys Sent</th>
+  <th>tmux command</th>
+</tr>
+</thead>
+<tbody>
 <tr>
-<td>
-`⌘-{`
-</td>
-<td>
-`0x02 0x70`
-</td>
-<td>
-`control-b,p`
-</td>
+  <td> <code>⌘-{</code> </td>
+  <td> <code>0x02 0x70</code> </td>
+  <td> <code>control-b,p</code> </td>
+  <td> previous window </td>
 </tr>
 <tr>
-<td>
-`⌘-}`
-</td>
-<td>
-`0x02 0x6E`
-</td>
-<td>
-`control-b,n`
-</td>
+  <td> <code>⌘-}</code> </td>
+  <td> <code>0x02 0x6E</code> </td>
+  <td> <code>control-b,n</code> </td>
+  <td> next window </td>
 </tr>
+</tbody>
 </table>
 
 The other thing that makes this easier to keep tmux and iterm working nicely is to use the `prefix2` setting in tmux. That lets you keep `control-b` working as a prefix binding, but you can also use a more comfortable binding when you are typing.
