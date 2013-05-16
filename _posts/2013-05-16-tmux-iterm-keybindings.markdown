@@ -13,7 +13,7 @@ Click in the "Keyboard Shortcut" field, and mash the shortcut you want to use (i
 
 Here is the real trick, choose "Send Hex Code" as the action.
 
-<img src="/images/tmux-keybindings02.png" style="height:500px;" />
+<img src="/images/tmux-keybindings-02.png" style="height:500px;" />
 
 Then in the field you want to enter the [ascii code](http://www.columbia.edu/kermit/ascii.html) for what you want to send to tmux. In my case I used:
 
