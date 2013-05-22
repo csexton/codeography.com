@@ -3,7 +3,7 @@ layout: post
 title: Vim - highlight debugger statements
 ---
 
-<img src="/images/vim-debugger.png" style="height:447px;" />
+<img src="/images/vim-debugger.png" />
 
 I know some folks thoroughly disapprove of using debugger, but in the context of a big app, using a framework or libraries you didn't write I find them crazy helpful. Plus you can drop into your unit tests to track down a failure so easy.
 

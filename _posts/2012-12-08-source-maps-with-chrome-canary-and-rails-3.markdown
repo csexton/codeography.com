@@ -15,7 +15,7 @@ In [Chrome Canary](https://tools.google.com/dlpage/chromesxs) navigate to `chrom
 
 Search for "Developer Tools experiments" and enable
 
-<img src="/images/source-map-01.png" style="height:500px;" />
+<img src="/images/source-map-01.png" />
 
 ## Step 3:
 
@@ -27,11 +27,11 @@ Enable sass support in the developer tools:
 
 Settings:
 
-<img src="/images/source-map-02.png" style="height:500px;" />
+<img src="/images/source-map-02.png" />
 
 Experiments tab:
 
-<img src="/images/source-map-03.png" style="height:500px;" />
+<img src="/images/source-map-03.png" />
 
 
 ## Step 4:
@@ -63,4 +63,4 @@ Reboot all the things. Reload rails server. Reload the browser.
 
 Now the developer tools links to your sass files directly. Huzzah!
 
-<img src="/images/source-map-04.png" style="height:500px;" />
+<img src="/images/source-map-04.png" />

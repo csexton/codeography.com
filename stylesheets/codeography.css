@@ -155,6 +155,11 @@ h2.title {
   color: #657B83;
 }
 
+.content img {
+  max-width: 710px;
+  height: auto;
+}
+
 /* Forms */
 
 input,

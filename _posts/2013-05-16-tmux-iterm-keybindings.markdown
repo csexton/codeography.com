@@ -7,13 +7,13 @@ I wanted to bind `⌘-{` and `⌘-}` to switch windows in tmux (window is to tmu
 
 In iTerm preferences, click Profiles in the toolbar, then the Keys tab. You'll see a lieelte `+` button there:
 
-<img src="/images/tmux-keybindings-01.png" style="height:500px;" />
+<img src="/images/tmux-keybindings-01.png" />
 
 Click in the "Keyboard Shortcut" field, and mash the shortcut you want to use (in my case `command-shift-[`).
 
 Here is the real trick, choose "Send Hex Code" as the action.
 
-<img src="/images/tmux-keybindings-02.png" style="height:500px;" />
+<img src="/images/tmux-keybindings-02.png" />
 
 Then in the field you want to enter the [ascii code](http://www.columbia.edu/kermit/ascii.html) for what you want to send to tmux. In my case I used:
 
