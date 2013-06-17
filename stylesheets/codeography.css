@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#CB4B16;
   border: none;
 }
+h2 a { text-decoration: none; }
 h4 {margin-bottom: 0.3em}
 h5 {margin-bottom: 0.3em}
 p {line-height:160%;}

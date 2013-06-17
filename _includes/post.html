@@ -1,6 +1,6 @@
 <div class="span-18 prepend-2">
   <div class='entry'>
-    <h2 class='title'>{{ post.title }}</h2>
+    <h2 class='title'><a href="{{ post.url}}">{{ page.title }}</a></h2>
     <div class='byline'>{{ post.date | date:"%B %d, %Y" }} by Christopher Sexton</div>
     <div class='body'>
       {% if hide_extended %}
