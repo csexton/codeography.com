@@ -3,9 +3,11 @@ layout: post
 title: replacing all the things with unite.vim
 ---
 
-Recently started using [Unite.vim](https://github.com/Shougo/unite.vim) and have really been liking it. I found out about it because of a blog post by [Bailey Ling](http://bling.github.io//blog/2013/06/02/unite-dot-vim-the-plugin-you-didnt-know-you-need/#comment-919769841) where he describes how he replaced a number of common plugins with Unite. Turns out I was able to take the idea and just put my own spin on it. For one, I used a different set of plugins and was able to tweak unite just right for my work flow.
+Recently started using [Unite.vim](https://github.com/Shougo/unite.vim) and have really been liking it. I found it through a blog post by [Bailey Ling](http://bling.github.io//blog/2013/06/02/unite-dot-vim-the-plugin-you-didnt-know-you-need/#comment-919769841) where he describes how he replaced a number of his plugins with Unite. So I gave it a go, and sure enough I was able to replace Command-T, Yankstack and BufExplorer.
 
-First let me give you my rationale behind loving this lil plugin. Not only is it a powerful interface for navigating my code, but it is a consistant interface and once I get the muscle memory for navigating one thing (say buffers), I can use that to navigate all the things (say yank history).
+That last one surprised even me, I've been using BufExplorer for more than a decade and swore I was never gonna give it up.
+
+First my rationale behind loving this lil plugin. Not only is it a powerful interface for navigating my code, but it is a consistant interface. Once I get the muscle memory for navigating one thing (say buffers), I can use that to navigate all the things (say yank history).
 
 And the other, and this was killer for me, it can be modal. This doesn't sound like a big deal, but I feel this is how vim is supposed to work -- it is a modal editor dammit. Instead of popping open a split for the search list at the top or bottom of the window, Unite can be told to open in the active pane. This means when you invoke it unite will open in the pane you are operating on. Which is what I care about. No guessing, it just pops open right where I was looking to start with.
 
@@ -38,4 +40,4 @@ One of the things I like about unite is that it does not come with default keybi
       imap <buffer> <C-k>   <Plug>(unite_select_previous_line)
     endfunction
 
-Hopefully this gives you a decent place to start building an awesome vim setup.
+Hopefully this gives you a decent place to start building an awesome vimming rig.
