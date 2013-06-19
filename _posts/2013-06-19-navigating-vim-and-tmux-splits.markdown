@@ -12,10 +12,10 @@ This code is almost entirely taken from Aaron's dot files (see [vimrc](https://g
 Add this to your `.tmux.conf`:
 
 ```bash
-bind -n M-h run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys M-h) || tmux select-pane -L"
-bind -n M-j run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys M-j) || tmux select-pane -D"
-bind -n M-k run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys M-k) || tmux select-pane -U"
-bind -n M-l run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys M-l) || tmux select-pane -R"
+bind -n C-h run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys C-h) || tmux select-pane -L"
+bind -n C-j run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys C-j) || tmux select-pane -D"
+bind -n C-k run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys C-k) || tmux select-pane -U"
+bind -n C-l run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys C-l) || tmux select-pane -R"
 ```
 
 And add this to your `.vimrc`:
