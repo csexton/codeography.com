@@ -1,6 +1,6 @@
 ---
 layout: post
-title: navigating vim and tmux splits
+title: Navigating Vim and Tmux Splits
 ---
 
 So I read this awesome blog post on the [Thoughtbot Blog](http://robots.thoughtbot.com/post/53022241323/seamlessly-navigate-vim-and-tmux-splits), that was just a write up of [Mislav's technique](https://gist.github.com/mislav/5189704), but it didn't work for me. Disallusioned and desolate I figured my fate was sealed. I would have to navigate splits in two totally different ways.
