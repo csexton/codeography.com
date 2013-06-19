@@ -142,7 +142,6 @@ h2.title {
 }
 
 #footer {
-  background: url('../images/shadow.png') repeat-x 0 0;
   color: #93a1a1;
 }
 #footer h5, #footer h6 {
@@ -152,8 +151,9 @@ h2.title {
   border-bottom:thin dotted #efefef;
 }
 .content {
-  background: white url('../images/shadow.png') repeat-x 0 0;
+  background: white;
   color: #657B83;
+  margin-top: 10px;
 }
 
 .content img {
@@ -283,4 +283,16 @@ body ::-webkit-scrollbar-thumb {
   font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", Lucida, sans-serif;
   background: -webkit-linear-gradient(rgba(233, 233, 233, 1.0), rgba(178, 178, 178, 1.0) 23px, #6A6A6A 1px, #EDEDED, #EDEDED 23px);
   border-bottom: 0;
+}
+pre code { background-color: #efefef}
+pre {
+  /* background: #efefef url('../images/shadow.png') repeat-x 0 0; */
+  background-color: #efefef;
+  padding: 1em;
+  overflow: auto;
+  color: #4d4d4c;
+  font-size: 0.7em;
+  font-family: 'Inconsolata', Monaco, "Courier New", Courier, monospace;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
 }
