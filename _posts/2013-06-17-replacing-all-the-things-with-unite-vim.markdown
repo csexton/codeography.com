@@ -3,6 +3,8 @@ layout: post
 title: Replacing All The Things with Unite.vim
 ---
 
+#### Or: Unite's Killer Feature
+
 Recently started using [Unite.vim](https://github.com/Shougo/unite.vim) and have really been liking it. I found it through a blog post by [Bailey Ling](http://bling.github.io//blog/2013/06/02/unite-dot-vim-the-plugin-you-didnt-know-you-need/#comment-919769841) where he describes how he replaced a number of his plugins with Unite. So I gave it a go, and sure enough I was able to replace Command-T, Yankstack and BufExplorer.
 
 That last one surprised even me, I've been using BufExplorer for more than a decade and swore I was never gonna give it up.
