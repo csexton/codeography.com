@@ -11,13 +11,6 @@ This code is almost entirely taken from Aaron's dot files (see [vimrc](https://g
 
 Add this to your `.tmux.conf`:
 
-
-```ruby
-def foo
-  puts 'foo' + @joe
-end
-```
-
 ```bash
 bind -n M-h run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys M-h) || tmux select-pane -L"
 bind -n M-j run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux send-keys M-j) || tmux select-pane -D"
@@ -27,30 +20,32 @@ bind -n M-l run "(tmux display-message -p '#{pane_title}' | grep -iq vim && tmux
 
 And add this to your `.vimrc`:
 
-    if exists('$TMUX')
-      function! TmuxOrSplitSwitch(wincmd, tmuxdir)
-        let previous_winnr = winnr()
-        execute "wincmd " . a:wincmd
-        if previous_winnr == winnr()
-          " The sleep and & gives time to get back to vim so tmux's focus tracking
-          " can kick in and send us our ^[[O
-          execute "silent !sh -c 'sleep 0.01; tmux select-pane -" . a:tmuxdir . "' &"
-          redraw!
-        endif
-      endfunction
-      let previous_title = substitute(system("tmux display-message -p '#{pane_title}'"), '\n', '', '')
-      let &t_ti = "\<Esc>]2;vim\<Esc>\\" . &t_ti
-      let &t_te = "\<Esc>]2;". previous_title . "\<Esc>\\" . &t_te
-      nnoremap <silent> <C-h> :call TmuxOrSplitSwitch('h', 'L')<cr>
-      nnoremap <silent> <C-j> :call TmuxOrSplitSwitch('j', 'D')<cr>
-      nnoremap <silent> <C-k> :call TmuxOrSplitSwitch('k', 'U')<cr>
-      nnoremap <silent> <C-l> :call TmuxOrSplitSwitch('l', 'R')<cr>
-    else
-      map <C-h> <C-w>h
-      map <C-j> <C-w>j
-      map <C-k> <C-w>k
-      map <C-l> <C-w>l
+```
+if exists('$TMUX')
+  function! TmuxOrSplitSwitch(wincmd, tmuxdir)
+    let previous_winnr = winnr()
+    execute "wincmd " . a:wincmd
+    if previous_winnr == winnr()
+      " The sleep and & gives time to get back to vim so tmux's focus tracking
+      " can kick in and send us our ^[[O
+      execute "silent !sh -c 'sleep 0.01; tmux select-pane -" . a:tmuxdir . "' &"
+      redraw!
     endif
+  endfunction
+  let previous_title = substitute(system("tmux display-message -p '#{pane_title}'"), '\n', '', '')
+  let &t_ti = "\<Esc>]2;vim\<Esc>\\" . &t_ti
+  let &t_te = "\<Esc>]2;". previous_title . "\<Esc>\\" . &t_te
+  nnoremap <silent> <C-h> :call TmuxOrSplitSwitch('h', 'L')<cr>
+  nnoremap <silent> <C-j> :call TmuxOrSplitSwitch('j', 'D')<cr>
+  nnoremap <silent> <C-k> :call TmuxOrSplitSwitch('k', 'U')<cr>
+  nnoremap <silent> <C-l> :call TmuxOrSplitSwitch('l', 'R')<cr>
+else
+  map <C-h> <C-w>h
+  map <C-j> <C-w>j
+  map <C-k> <C-w>k
+  map <C-l> <C-w>l
+endif
+```
 
 The cool thing about this approach is that vim detects if it is running in tmux and will set the pane title. Then tmux will inspect the pane title when you try to switch and pass the key press on through. I think Mislav's approach wasn't working for me because tmux would intercept the key before vim had a chance.
 
