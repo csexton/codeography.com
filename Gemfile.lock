@@ -23,6 +23,7 @@ GEM
     liquid (2.5.0)
     maruku (0.6.1)
       syntax (>= 1.0.0)
+    mr_poole (0.3.1)
     posix-spawn (0.3.6)
     pygments.rb (0.5.0)
       posix-spawn (~> 0.3.6)
@@ -37,4 +38,5 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  mr_poole
   redcarpet

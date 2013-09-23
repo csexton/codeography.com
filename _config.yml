@@ -1,4 +1,6 @@
 ---
+poole:
+  default_extension: markdown
 lsi: false
 markdown: redcarpet
 pygments: true
