@@ -6,12 +6,14 @@ date: 2013-09-23
 
 After having another battle with pow and rvm I thought I would give [chruby](https://github.com/postmodern/chruby) a go. So my little experiment went something like this:
 
+```bash
 brew install chruby
 brew install ruby-build
-ruby-install ruby 2.0
 ruby-install ruby 1.9.3
+ruby-install ruby 2.0
+```
 
-Then I load chruby in my `.zshenv` file. We want to use the `.zshenv` and not the `.zshrc` because `.zshrc` is for interactive shell configuration; but `.zshenv` is always sourced.
+Then I load chruby in my `.zshenv` file.
 
 
 ```bash
@@ -30,7 +32,11 @@ fi
 
 ```
 
+Fun Fact: We want to use the `.zshenv` and not the `.zshrc`. This is because `.zshrc` is for interactive shell configuration, whereas `.zshenv` is always sourced.
+
 This should have you up and running now, but I have added two other steps to my normal process.
+
+### Bundler
 
 First of all, for ubndler I now use the `--path` option when I am first installing the gems for a project.
 
