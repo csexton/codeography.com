@@ -1,5 +1,5 @@
 ---
-title: how I setup chruby
+title: How I setup chruby
 layout: post
 date: 2013-09-23
 ---
