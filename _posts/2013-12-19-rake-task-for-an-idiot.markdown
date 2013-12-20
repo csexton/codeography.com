@@ -1,6 +1,6 @@
 ---
 layout: post
-title: most useful rake task for when you are an idiot
+title: Most useful rake task for an idiot
 ---
 
 I am not the smartest. I frequently get things wrong. This is why I like programming, you can go fix things when you mess up. I would make a really bad surgon.
