@@ -4,6 +4,11 @@ layout: post
 date: 2014-02-03
 ---
 
+<img src="/images/retro4.jpg" style="width:100%" />
+<span style="font-size: 60%">
+Photo Credit: [@elight](https://twitter.com/elight/status/429640778521276416)
+<span>
+
 This last weekend Arlington Ruby hosted our semi regular unconference known as Ruby Retrocession. Or RetroRuby when you have a character limit.
 
 As is normal in an Open Space event, we held a retrospective at the end. I thought it would be good to write some of that up. To help me remember, or perhaps help someone else who is participating or organizing something like this.
