@@ -1,5 +1,5 @@
 ---
-title: ruby retrocession retrospective
+title: Ruby Retrocession Retrospective
 layout: post
 date: 2014-02-03
 ---
