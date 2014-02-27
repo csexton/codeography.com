@@ -8,7 +8,7 @@ After having another battle with pow and rvm I thought I would give [chruby](htt
 
 ```bash
 brew install chruby
-brew install ruby-build
+brew install ruby-install
 ruby-install ruby 1.9.3
 ruby-install ruby 2.0
 ```
@@ -38,7 +38,7 @@ This should have you up and running now, but I have added two other steps to my 
 
 ### Bundler
 
-First of all, for ubndler I now use the `--path` option when I am first installing the gems for a project.
+First of all, for bundler I now use the `--path` option when I am first installing the gems for a project.
 
 ```bash
 bundle install --path ./vendor/bundle
