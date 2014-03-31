@@ -112,7 +112,7 @@ Create the init script, I have the one I use up [here](https://gist.github.com/3
 
 It's pretty big, so you may want to curl it down
 
-    curl https://raw.github.com/gist/3772971/efbe88004be70cb7f157e30aa1183ea5867d8de6 > /etc/init.d/znc
+    curl https://gist.githubusercontent.com/csexton/3772971/raw/efbe88004be70cb7f157e30aa1183ea5867d8de6/gistfile1.sh > /etc/init.d/znc
 
 Copy over the ZNC config files to `/etc`, and update permissions
 
