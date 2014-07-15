@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/csexton
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.codeography.com
+  * I am csexton (https://keybase.io/csexton) on keybase.
+  * I have a public key with fingerprint DC11 A2A6 5478 2BD0 2C4D  453F 5727 C003 D0D8 98EB
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "dc11a2a654782bd02c4d453f5727c003d0d898eb",
+            "host": "keybase.io",
+            "key_id": "5727c003d0d898eb",
+            "uid": "3a99bf5dababa21027596ff0a8853700",
+            "username": "csexton"
+        },
+        "service": {
+            "hostname": "www.codeography.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1405394336,
+    "expire_in": 157680000,
+    "prev": "102035b5cf2eb98ee20ab909ffb2adf5fedc08e68fac0a089ce0d3f5459b8228",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.23
+Comment: https://keybase.io/crypto
+
+yMHvAnicbVFdSFRLHN9NLdvSgh42NSRPUWK7Nns+ds9ZgluJgpYlKm6ZtcycM2f3
+4Lpn95zjurKp3CiErMulpCfrSlmBhEghqZloWaGGSvUQlPSW4YVb9OD2eXV2sbdm
+HmbmN7+P+c9/IiPFZDFn380vXvK/mjNPj8UbTVUTV7tjFFKlZsodo+pxcpGVoA9r
+IU0JGpSbkkSHA9LQybEunkYSoEVWYjlG5ly0SwSAkYDECzxGlI3yq3pCQWwQ1HGh
+ohKMHLyKRNDf8BuTFwwUBCRzEkRk0g5AuzjBKcsA8jzHuABIEHWsBWEDJmxRx1FD
+DVItNoqAEUUkYCyZvEpoamoqFFUJqz4NhvzNZN9AHEKaaqiiGiAEv2GE3Am90RxK
+CjDyrlp5kRKUSPVEEMGarpAct4MwRUNJeDtYwDECyzBOG4WjIUXDXiXB4FxOHpCR
+iMERYkmKAAyHOFGmMSLFYhpAJABBlhENJZmTsSQCHjt5GYoAAl4QMZDIl7KcgHia
+5km+jsNBlXLT5JnQRyx1xReERqOGqZZHY3WpJrPFtDZtTaJ/Jsv6zb+6+nw+3XTR
+PFfztqjrx52ikSrqRc/8iStLew940I6f76dy+ztVdjE1c8Y6aCkf2ViS1lo7bR37
+Y8B+Ltva2X1/u7YVChMfKys8zD/5Tw7vFjKuH7r2/TNrX4jchCWzj/M2HbEVeXr/
+6yvwy0IrPw7zy2Pb0pf3nT02dJlF8f5Jvu38a3rLh1Lvqb/viQ9rA2/+akvNGU1f
+fvZpNDwQqLBPlYYnnzI5uYMXOsZPO6J/3sps/eo5+WDReJnVMRobHm4/Pv2urtp6
+tKC6b08keqm/sjPLefvfxW/h4hvF9v/jM1/sNTl5KeuY/RuiZQdhb9cZ3654uzd3
+pzvFrpcH6suGZhciPSv7uxC1
+=4wvE
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/csexton
+
+==================================================================
+
