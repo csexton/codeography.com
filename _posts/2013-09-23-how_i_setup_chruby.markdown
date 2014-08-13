@@ -4,6 +4,8 @@ layout: post
 date: 2013-09-23
 ---
 
+**Update 8/13/2014: I updated the paths and the .zshenv script for latest version in homebrew**
+
 After having another battle with pow and rvm I thought I would give [chruby](https://github.com/postmodern/chruby) a go. So my little experiment went something like this:
 
 ```bash
@@ -17,17 +19,11 @@ Then I load chruby in my `.zshenv` file.
 
 
 ```bash
-if [[ -e /usr/local/share/chruby ]]; then
-  # Load chruby
-  source '/usr/local/share/chruby/chruby.sh'
-
-  # Automatically switch rubies
-  source '/usr/local/share/chruby/auto.sh'
-
-  # Set a default ruby if a .ruby-version file exists in the home dir
-  if [[ -f ~/.ruby-version ]]; then
-    chruby $(cat ~/.ruby-version)
-  fi
+if [[ -f /usr/local/opt/chruby/share/chruby/chruby.sh ]]; then
+  source /usr/local/opt/chruby/share/chruby/chruby.sh
+  source /usr/local/opt/chruby/share/chruby/auto.sh
+else
+  echo "Ain't got no chruby"
 fi
 
 ```
@@ -51,7 +47,7 @@ You only have to use that option once per project then bundler will remember whe
 I use the hell out of the zero-conf web server [pow](http://pow.cx/). Now to configure the zero configure webserver I create a `.powenv` file in each of my projects that looks like this:
 
 ```
-source /usr/local/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/chruby.sh
 chruby $(cat .ruby-version)
 ```
 
