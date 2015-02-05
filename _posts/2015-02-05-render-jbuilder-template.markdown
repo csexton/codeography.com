@@ -1,5 +1,5 @@
 ---
-title: Render JBuilder Template
+title: Render a JBuilder template outside of a request
 layout: post
 date: 2015-02-05
 ---
