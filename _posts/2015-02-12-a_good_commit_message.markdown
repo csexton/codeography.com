@@ -43,10 +43,10 @@ h2 {
 
 Now this is helpful. It gives me context. I get clues on what changing this code may or may not break. Show that it wasn't some arbitrary change. Me in 6 months will appreciate this.
 
-Communicating the current reasoning to your future self is a super power.
 
 A commit contains a `diff`, so it already shows what was changed. No reason to write that up again. But nothing explains why you made that horrible hack or sweeping change.
 
+Communicating the current reasoning to your future self is a super power.
 
 ----
 

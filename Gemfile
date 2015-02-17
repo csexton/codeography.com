@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
-gem 'jekyll'
-gem 'redcarpet'
+
+# For supported versions see https://pages.github.com/versions/
+gem 'github-pages'
+
 gem 'mr_poole'
