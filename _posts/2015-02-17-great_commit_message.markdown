@@ -57,11 +57,11 @@ There have been many posts about commit message from formatting to content. Here
 
 Tim Pope's [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html). This is formatting and syntax, but if you follow this I will be much, much happier.
 
-Caleb Thompson's [5 Useful Tips For A Better Commit Message](http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) a bit vim-centric, but great guidelines.
+Caleb Thompson's [5 Useful Tips For A Better Commit Message](http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message). A bit vim-centric, but great guidelines.
 
-Stephen Ball's [Deliberate Git](http://rakeroutes.com/blog/deliberate-git/) in depth guide to commit messages. Worth the time to read and understand.
+Stephen Ball's [Deliberate Git](http://rakeroutes.com/blog/deliberate-git/). An in depth guide to commit messages. Worth the time to read and understand.
 
-Keavy McMinn's [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request) slightly different than commit messages, but they really go well together.
+Keavy McMinn's [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request). Slightly different than commit messages, but they really go well together.
 
 
 
