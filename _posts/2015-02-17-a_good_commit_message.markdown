@@ -1,17 +1,18 @@
 ---
 title: How do you write great commit messages?
 layout: post
-date: 2015-02-12
+date: 2015-02-17
 ---
 
 The best way to learn to write great commit messages is to go back and read them.
 
-When reading code to go look at the git history every time you mutter "why did they do that." That point moment is when you want to know the real "why" behind the change. One of the best code-reading tools out there is figuring out hwo to access the history of a line quickly in [your](https://magit.github.io/) [editor](https://github.com/tpope/vim-fugitive) or in [your](https://github.com/blog/228-playing-the-blame-game) [repo](http://git-scm.com/docs/git-blame).
+When reading code take a moment and go look at the git history every time you mutter "why did they do that." That's the point in time when you want to know the real "why" behind the change. If you don't already know how, you should take moment to figure out how to access the history of a line quickly in [your](https://magit.github.io/) [editor](https://github.com/tpope/vim-fugitive) or in [your](https://github.com/blog/228-playing-the-blame-game) [repo](http://git-scm.com/docs/git-blame), the less friction the easier it is to go back and read about the changes.
 
 If you make a habbit out of this, you will quickly learn what is helpful and what is not. Then, if you are like me, you'll want to go back to slap your past-self for being lazy and giving a few bullet points of "what" was changed and not "why" it was changed.
 
-To get started just add the word "[because](https://twitter.com/sarahmei/status/566667320425066497)" to your commits.
+Sound good? You in? Cool.
 
+To get started just add the word "[because](https://twitter.com/sarahmei/status/566667320425066497)" to your commits.
 
 Lets look at an example.
 
