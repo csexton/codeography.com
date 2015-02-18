@@ -8,7 +8,7 @@ The best way to learn to write great commit messages is to go back and read them
 
 When reading code take a moment and go look at the git history every time you mutter "why did they do that." That's the point in time when you want to know the real "why" behind the change. If you don't already know how to to that, take moment to figure out a way quickly to access the history of a line in [your](https://magit.github.io/) [editor](https://github.com/tpope/vim-fugitive) or in [your](https://github.com/blog/228-playing-the-blame-game) [repo](http://git-scm.com/docs/git-blame), the less friction the easier it is to go back and read about the changes.
 
-If you make a habbit out of this, you will quickly learn what is helpful and what is not. Then, if you are like me, you'll want to go back to slap your past-self for being lazy and giving a few bullet points of "what" was changed and not "why" it was changed.
+If you make a habit out of this, you will quickly learn what is helpful and what is not. Then, if you are like me, you'll want to go back to slap your past-self for being lazy and giving a few bullet points of "what" was changed and not "why" it was changed.
 
 Sound good? You in? Cool.
 
@@ -22,8 +22,8 @@ Changed the post title font size
 Changed 0.8em 16px.
 
 h2 {
--  font-size: 16px;
-+  font-size: 0.8em;
+-  font-size: 0.8em;
++  font-size: 16px;
 }
 ```
 
@@ -37,8 +37,8 @@ Fixed it to 16 pixels because when we increased the overall font size on
 the blog the titles were wrapping on mobile views.
 
 h2 {
--  font-size: 16px;
-+  font-size: 0.8em;
+-  font-size: 0.8em;
++  font-size: 16px;
 }
 ```
 
