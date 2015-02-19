@@ -128,6 +128,7 @@ h2.title {
 #header:hover .logo {
   background-image: url("/images/base/rocket.png");
 }
+#preload-01 { background: url("/images/base/rocket.png") no-repeat -9999px -9999px; }
 #header:hover .nav {
   display:block;
 }
