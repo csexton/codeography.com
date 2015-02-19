@@ -23,7 +23,7 @@ $green:     #859900;
 body {
   font: 17px Georgia,Serif;
 }
-hr {background:#606060;color:#606060;}
+hr {background:#efefef;color:#efefef;}
 hr.space {background:none;color:none;}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cantarell', arial, serif;
@@ -139,6 +139,7 @@ h2.title {
 }
 
 #header .nav a {
+  font-family: 'Cantarell', arial, serif;
   color: #93A1A1;
   padding-right: 5px;
   font-size: 13px;
