@@ -1,5 +1,5 @@
 ---
-title: playing minecraft when the port is blocked
+title: Playing Minecraft when the Port is Blocked
 layout: post
 date: 2015-08-02
 ---
