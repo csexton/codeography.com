@@ -4,7 +4,7 @@ layout: post
 date: 2015-09-21
 ---
 
-iOS 9 requires all `NSURLConnection` connections to support TLS 1.2. So I needed to check my servers to see if this was indeed configured. After looking around a bit I was able to find that you could test for this using `openssl`.
+iOS 9 requires all `NSURLConnection` connections to [support TLS 1.2](https://developer.apple.com/library/ios/technotes/tn2287/_index.html). So I needed to check my servers to see if this was indeed configured. After looking around a bit I was able to find that you could test for this using `openssl`.
 
 On OS X with homebrew you can test with this command:
 
