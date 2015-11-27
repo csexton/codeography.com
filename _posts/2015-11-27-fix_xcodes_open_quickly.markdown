@@ -75,4 +75,4 @@ Add the following XML to `~/Library/Application\ Support/Karabiner/private.xml`,
 </root>
 ```
 
-
+You can find all my Karabiner settings in my [dotfiles repo](https://github.com/csexton/dotfiles/tree/master/karabiner) on GitHub.
