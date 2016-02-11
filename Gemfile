@@ -1,6 +1,10 @@
+
 source 'https://rubygems.org'
 
-# For supported versions see https://pages.github.com/versions/
-gem 'github-pages'
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-gem 'mr_poole'
+gem 'github-pages', versions['github-pages']
+
+gem 'jekyll-compose', group: [:jekyll_plugins]

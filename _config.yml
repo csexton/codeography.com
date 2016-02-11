@@ -1,9 +1,7 @@
 ---
 poole:
   default_extension: markdown
-lsi: false
-markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 exclude:
 - Rakefile
 - README.markdown
