@@ -3,7 +3,7 @@ layout: post
 title: AWS Version 4 Signing Key on Mac
 ---
 
-# How to Derive a Version 4 Signing Key for a Mac App
+Or **How to Derive a Version 4 Signing Key for a Mac App**
 
 I have been working on a major update to [Captured](http://www.capturedapp.com/), and heard back from one of the beta testers that uses S3 in the `eu-central-1` region. Turns out that is one of the newer regions that requires the `AWS4-HMAC-SHA256` Authorization Method. After a bit of research I found Amazon's [Signature Version 4 Signing Process](http://docs.aws.amazon.com/general/latest/gr/signature-version-4.html) which describes how to do the signing. They even provide a [few code examples](http://docs.aws.amazon.com/general/latest/gr/signature-v4-examples.html#signature-v4-examples-other), however they didn't have any that used Swift or Objective-C.
 
