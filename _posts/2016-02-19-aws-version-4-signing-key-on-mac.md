@@ -75,6 +75,16 @@ I added a few `NSLog` statements to test thigns along the way. This turned out t
 @end
 ```
 
+Then when I run this bit of Swift code:
+
+```swift
+let key = "wJalrXUtnFEMI/K7MDENG+bPxRfiCYEXAMPLEKEY"
+let dateStamp = "20120215"
+let regionName = "us-east-1"
+let serviceName = "iam"
+AWS4SigningKey.getSignatureKey(key, dateStamp: dateStamp, regionName: regionName, serviceName: serviceName)
+```
+
 This output:
 
 ```
@@ -87,7 +97,7 @@ This output:
 
 Which if you delete a few extra spaces, you'll notice matches the reference from the AWS documentation:
 
-```
+```ruby
 kSecret  = '41575334774a616c725855746e46454d492f4b374d44454e472b62507852666943594558414d504c454b4559'
 kDate    = '969fbb94feb542b71ede6f87fe4d5fa29c789342b0f407474670f0c2489e0a0d'
 kRegion  = '69daa0209cd9c5ff5c8ced464a696fd4252e981430b10e3d3fd8e2f197d7a70c'
