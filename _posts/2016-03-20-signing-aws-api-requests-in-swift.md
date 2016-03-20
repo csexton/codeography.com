@@ -51,7 +51,6 @@ class S3V4Signer {
   // MARK: Utilities
 
   private func pathForURL(url: NSURL) -> String {
-    // Nil or empty, default to "/"
     var path = url.path
     if (path ?? "").isEmpty {
       path = "/"
@@ -214,6 +213,7 @@ do {
 }
 ```
 
+The final integration test for this class. I was able to TDD my way through the while porting things, but wanted to make most of the methods private so wound up deleting many of the intermediate tests. I am confident this will catch any breaking changes for my use.
 
 ```swift
 import XCTest
