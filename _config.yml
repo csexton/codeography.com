@@ -1,8 +1,13 @@
----
+# General Jekyll Config
+url: http://www.codeography.com
+safe: true
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+kramdown:
+  input: GFM
+  hard_wrap: false
 poole:
-  default_extension: markdown
-highlighter: rouge
-exclude:
-- Rakefile
-- README.markdown
-- public
+  default_layout: post
+gems:
+  - jekyll-redirect-from
+excerpt_separator: <!--more-->

@@ -1,6 +1,5 @@
 ---
-layout: brag
-title: Christopher Sexton
+layout: default
 ---
 <!--# Christopher Sexton's CV -->
 
@@ -194,7 +193,7 @@ You can find a sampling of design work in my [portfolio](/portfolio/).
 
 I have a technical blog at [codeography.com](http://www.codeography.com/). For those curious (and to save you from having to use google) my personal blog is [fuzzymonk.com](http://www.fuzzymonk.com).
 
-I like the Ruby community, and am involved in confrences and user groups. I co-founded [Arlington Ruby](http://www.arlingtonruby.org), have given a talk about Ruby Gems at [RubyNation](http://rubynation.org) and run sessions at [Ruby DCamp](http://rubydcamp.org/). I am also involved at the [DCRUG](http://www.meetup.com/dcruby/).
+I like the Ruby community, and am involved in confrences and user groups. I co-founded [Arlington Ruby](http://www.arlingtonruby.org), have given talks at a number of conferences including [RubyConf](http://rubyconf.org), [MoDev](http://www.modev.com), and [RubyNation](http://rubynation.org). I am an orginzer at [Ruby for Good](http://rubyforgood.org) and help out at [Ruby DCamp](http://rubydcamp.org/). I am also involved at the [DCRUG](http://www.meetup.com/dcruby/).
 
 I have many of my personal projects up on [github](http://github.com/csexton), feel free to browse them.
 
