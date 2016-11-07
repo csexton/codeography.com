@@ -94,13 +94,13 @@ cat YOUR_CERT.crt COMODORSADomainValidationSecureServerCA.crt cOMODORSAAddTrustC
 
 ### 5. Add the cert to Heroku using SNI
 
-Almost there, just one last step
+Almost there, just one last step:
 
 ```
 heroku certs:add path/to/multidomain-bundle.pem path/to/server.key
 ```
 
-Heroku will let you knwo the domains and DNS setting you'll need:
+Heroku will let you know the domains and DNS setting you'll need:
 
 ```
 === Your certificate has been added successfully.  Update your application's DNS settings as follows
@@ -112,10 +112,7 @@ baz.net                       ALIAS/ANAME  baz.net.herokudns.com
 
 Add those to DNS and you should be good. If you already had a cert on your domain you'll need to remove it first with `heroku certs:remove`
 
+----
 
-All the SSL stuff is turtles all the way down, so hopefully this guide saves you some time.
-
-
-
-
+This SSL stuff is turtles all the way down, so hopefully this guide saves you some time.
 
