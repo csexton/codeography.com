@@ -14,9 +14,9 @@ You can't have more than one cert on a SNI endpoint. Turns out you don't need mo
 Luckily you can get one pretty easily, as long as you know a few tricks to set it up. I got to admit I was a little worried about the manual steps for setting up the openssl config and CSR, but it was worth risking $25 to save $360/year in SSL endpoints on heroku. Turns out this even works with wildcards.
 
 
-1. Buy "Comodo PositiveSSL Multi-Domain"
+### 1. Buy Multi-Domain SSL Cert
 
-I bought mine from [SSLs.com](https://www.ssls.com/ssl-certificates/comodo-positivessl-multi-domain). Buy it first, and you will add the domains and "Activate" it later.
+I bought a "Comodo PositiveSSL Multi-Domain" from [SSLs.com](https://www.ssls.com/ssl-certificates/comodo-positivessl-multi-domain). Buy it first, and you will add the domains and "Activate" it later.
 
 ### 2. Create the Signing Request (CSR)
 
