@@ -2,6 +2,41 @@
   "title": "Codeography Rules",
   "rules": [
     {
+      "description": "🚀 Grave and Tilde [Esc → Fn + Grave , → Grave or Tilde otherwise]",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "grave_accent_and_tilde",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "grave_accent_and_tilde"
+          },
+          "to": [
+            {
+              "key_code": "grave_accent_and_tilde"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "🚀 Right Command [Command → Command with other keys, → Return if pressed alone]",
       "manipulators": [
         {
