@@ -1,9 +1,9 @@
 ---
 layout: post
-title: The Next Era of Remaping Caps Lock
+title: The Next Era of Remapping Caps Lock
 ---
 
-I had previously [written](/2010/12/02/remap-capslock-to-control-on-a-mac.html) about [remaping](/2013/06/26/remapping-caps-lock-was-only-the-beginning.html) parts of the keyboard, but most of those techniques had stopped working as Apple continued to evolve the Mac.
+I had previously [written](/2010/12/02/remap-capslock-to-control-on-a-mac.html) about [remapping](/2013/06/26/remapping-caps-lock-was-only-the-beginning.html) parts of the keyboard, but most of those techniques had stopped working as Apple continued to evolve the Mac.
 
 The latest generation of Apple products was threatening my precious keyboard control. The TouchBar on make `esc` an awkward virtual key, and macOS Sierra broke Karabiner. It was a little rough there for a while. Shortly after Sierra was released Takayama Fumihiko created the [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) project, but it lacked much of the functionality of the original. Necessary step back to move forward, but no fun.
 
