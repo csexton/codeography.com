@@ -3,9 +3,11 @@ layout: post
 title: Installing Rails 6 on Heroku
 ---
 
+----
+
 # Update: there is a better way!
 
-After some discussion on the `rails/webpacker` issues I have a better solution for this. See the [updated post](/2019/08/02/rails-6-on-heroku-revisited.html) for details.
+After some discussion on the `rails/webpacker` issues I have a better solution for this. See the [updated post](/2019/08/22/rails-6-on-heroku-revisited.html) for details.
 
 ----
 
