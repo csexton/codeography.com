@@ -3,6 +3,12 @@ layout: post
 title: Installing Rails 6 on Heroku
 ---
 
+# Update: there is a better way!
+
+After some discussion on the `rails/webpacker` issues I have a better solution for this. See the [updated post](/2019/08/02/rails-6-on-heroku-revisited.html) for details.
+
+----
+
 Ran into a problem installing Rails 6.0.0.rc2 on Heroku. Being a good Rails citizen I was trying use Webpacker and all it's JS goodness.
 
 Then I spent two days trying to figure out why assets wouldn't compile when deploying to heroku. And I got this frustratingly vague error:
