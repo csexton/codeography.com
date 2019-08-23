@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -9,15 +10,15 @@ html, body {
 
 body {
   font-size: 16px;
-  background-color: white;
-  color: #222222;
+  background-color: var(--background-color);
+  color: var(--text-color);
   line-height: 24px;
   margin: 0;
-  border-top: 7px solid {{ site.data.theme.highlight_color }};
+  border-top: 7px solid var(--highlight-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #181818;
+  color: var(--text-heading-color);
   font-family: "open sans", sans-serif;
   font-weight: 600;
 }
@@ -48,17 +49,18 @@ ul {
 }
 
 a {
-  color: {{ site.data.theme.highlight_color }};
+  color: var(--link-color);
+  background-color: var(--background-color);
   text-decoration: underline;
 }
 
 a:hover {
-  color: {{ site.data.theme.highlight_color }};
+  color: var(--link-hightlight-color);
   text-decoration: underline;
 }
 
 a:visited {
-  color: {{ site.data.theme.highlight_color }};
+  color: var(--link-color);
 }
 
 table {
@@ -85,7 +87,7 @@ ul.posts li {
 }
 
 ul.posts span {
-  color: #aaa;
+  color: var(--other-color);
   float: left;
   padding-right: 0px;
   font-size: 14px;
@@ -102,7 +104,7 @@ ul.posts li a {
 }
 
 .meta {
-  color: #aaa;
+  color: var(--other-color);
   margin: 0 0 10px 0;
 }
 
@@ -120,7 +122,7 @@ nav h1, nav h2 {
 #bio {
   margin-top: 10px;
   margin-bottom: 15px;
-  border: dotted #ddd;
+  border: dotted var(--accent-color);
   border-width: 1px 0;
   padding-top: 15px;
 }
@@ -137,8 +139,8 @@ nav h1, nav h2 {
 .content pre {
   margin-bottom: 20px;
   background-color: #fafafa;
-  border: solid 1px #f2f2f2;
-  border-left: 20px solid #f2f2f2;
+  border: solid 1px var(--content-code-border-color);
+  border-left: 20px solid var(--content-code-border-color);
   padding: 20px 10px 20px 30px;
 }
 
@@ -148,8 +150,7 @@ nav h1, nav h2 {
 }
 
 .content code {
-  border: solid 1px #f2f2f2;
-  background-color: #fafafa;
+  border: solid 1px var(--content-code-border-color);
   font-size: 75%;
   padding: 0 .2em;
 }
@@ -185,7 +186,7 @@ body .content .highlighter-rouge {
 
 .content {
   font: 400 16px/22px "open sans", sans-serif;
-  border-left: 1px solid #DDD;
+  border-left: 1px solid var(--accent-color);
   padding-top: 25px;
   min-height: 400px;
 }
@@ -199,7 +200,7 @@ body .content .highlighter-rouge {
 .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #EEE;
+  border-top: 4px solid var(--accent-color);
   overflow: hidden;
 }
 
@@ -209,7 +210,7 @@ body .content .highlighter-rouge {
 }
 
 #home h2 {
-  color: {{ site.data.theme.highlight_color }};
+  color: var(--other-color);
 }
 
 #logo, #gravatar {
@@ -256,7 +257,7 @@ i.fa-hn {
 .home {
   font-size: 24px;
   float: right;
-  color: #AAA;
+  color: var(--accent-color);
 }
 
 .home:hover {
@@ -301,7 +302,7 @@ table.blog-posts {
 }
 td.date {
   width: 9em;
-  color: #aaa;
+  color: var(--other-color);
   font-weight: 400;
 }
 
